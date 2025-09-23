@@ -77,7 +77,7 @@ export default function Hero() {
         >
           <div className="relative aspect-[4/3] w-full rounded-3xl overflow-hidden border border-white/10 shadow-[0_30px_100px_rgba(0,0,0,0.45)]">
             <Image
-              src="/Images/Header01.jpg"
+              src="/images/hero-sec.jpg"
               alt="Wild Witch world artwork"
               fill
               priority
