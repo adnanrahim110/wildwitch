@@ -10,6 +10,7 @@ import {
   Twitter,
   Youtube,
 } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
@@ -132,13 +133,22 @@ export default function Footer() {
                   Special Thanks
                 </div>
                 <div className="mt-3 rounded-2xl border border-white/10 bg-white/[0.05] p-4">
-                  <div className="flex items-start gap-3">
-                    <div className="h-9 w-9 rounded-xl bg-white/10 border border-white/15" />
-                    <div className="text-sm">
-                      <div className="inline-flex items-center gap-2 text-white/85">
-                        <HeartHandshake size={16} />
-                        Saalfield Publishers
+                  <div className="flex flex-col items-start gap-3">
+                    <div className="flex items-end gap-2">
+                      <div className="w-24">
+                        <Image
+                          src="/images/evp-logo.png"
+                          width={200}
+                          height={200}
+                          className="w-full h-auto"
+                          alt="EBook Visionary Publishing"
+                        />
                       </div>
+                      <div className="inline-flex items-center text-sm gap-2 text-white/85">
+                        EBook VIsionary Publishing
+                      </div>
+                    </div>
+                    <div className="text-sm">
                       <p className="mt-1 text-xs text-white/65">
                         With appreciation for support and inspiration.
                       </p>
