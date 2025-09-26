@@ -21,7 +21,7 @@
 
 @layer components {
   .container-max {
-    @apply w-full max-w-[1280px] mx-auto;
+    @apply w-full max-w-[1220px] mx-auto;
     padding-inline: clamp(16px, 2vw, 32px);
   }
 

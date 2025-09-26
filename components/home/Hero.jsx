@@ -45,8 +45,8 @@ export default function Hero() {
             summer, friendship becomes the strongest magic.
           </p>
           <div className="mt-7 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
-            <Button href="/about-book" variant="primary" size="md">
-              Start Reading
+            <Button href="/" variant="primary" size="md">
+              Buy Now
             </Button>
             <Button href="#definition" variant="outline" size="md">
               What is a Wild Witch?

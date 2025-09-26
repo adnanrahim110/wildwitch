@@ -15,12 +15,12 @@ import { useState } from "react";
 function InputWrap({ label, htmlFor, children }) {
   return (
     <div className="space-y-2">
-      <label
+      {/* <label
         htmlFor={htmlFor}
         className="text-xs uppercase tracking-wide text-white/60"
       >
         {label}
-      </label>
+      </label> */}
       {children}
     </div>
   );
@@ -30,8 +30,6 @@ export default function ContactBlock() {
   const [data, setData] = useState({
     name: "",
     email: "",
-    subject: "",
-    type: "",
     message: "",
   });
   const [errors, setErrors] = useState({});
@@ -49,8 +47,6 @@ export default function ContactBlock() {
     if (!data.name.trim()) e.name = "Required";
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email))
       e.email = "Enter a valid email";
-    if (!data.subject.trim()) e.subject = "Required";
-    if (!data.type) e.type = "Select one";
     if (data.message.trim().length < 20)
       e.message = "Write at least 20 characters";
     setErrors(e);
@@ -62,7 +58,7 @@ export default function ContactBlock() {
     setStatus({ ok: false, err: "" });
     if (!validate()) return;
     setStatus({ ok: true, err: "" });
-    setData({ name: "", email: "", subject: "", type: "", message: "" });
+    setData({ name: "", email: "", message: "" });
   };
 
   return (
@@ -79,8 +75,8 @@ export default function ContactBlock() {
             transition={{ duration: 0.45 }}
             className="lg:col-span-2"
           >
-            <div className="rounded-3xl border border-white/10 bg-gradient-to-br from-white/[0.06] to-white/[0.02] backdrop-blur p-6 md:p-7">
-              <div className="space-y-4">
+            <div className="rounded-3xl border border-white/10 bg-gradient-to-br from-white/[0.06] to-white/[0.02] backdrop-blur p-6 md:p-8">
+              <div className="space-y-5">
                 <div className="flex items-start gap-3">
                   <div className="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-white/15 bg-white/[0.06]">
                     <Mail size={16} />
@@ -92,20 +88,6 @@ export default function ContactBlock() {
                       className="text-xs text-white/70 hover:text-white transition"
                     >
                       hello@example.com
-                    </a>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <div className="inline-flex h-10 w-10 items-center justify-center rounded-xl border border-white/15 bg-white/[0.06]">
-                    <Phone size={16} />
-                  </div>
-                  <div>
-                    <div className="text-sm text-white/85">Phone</div>
-                    <a
-                      href="tel:+10000000000"
-                      className="text-xs text-white/70 hover:text-white transition"
-                    >
-                      +1 (000) 000-0000
                     </a>
                   </div>
                 </div>
@@ -131,10 +113,10 @@ export default function ContactBlock() {
                 </div>
               </div>
 
-              <div className="mt-6 h-px w-full bg-gradient-to-r from-transparent via-white/15 to-transparent" />
+              <div className="mt-8 h-px w-full bg-gradient-to-r from-transparent via-white/15 to-transparent" />
 
-              <div className="mt-6 rounded-2xl border border-white/10 bg-white/[0.04] p-4 text-xs text-white/75">
-                Special thanks to Saalfield Publishers for support and
+              <div className="mt-8 rounded-2xl border border-white/10 bg-white/[0.04] p-4 text-xs text-white/75">
+                Special thanks to EBook Visionary Publishing for support and
                 collaboration.
               </div>
             </div>
@@ -157,6 +139,7 @@ export default function ContactBlock() {
                   <input
                     id="name"
                     type="text"
+                    placeholder="Enter your name"
                     value={data.name}
                     onChange={(e) => setData({ ...data, name: e.target.value })}
                     className={inputCls}
@@ -170,6 +153,7 @@ export default function ContactBlock() {
                   <input
                     id="email"
                     type="email"
+                    placeholder="Enter your email"
                     value={data.email}
                     onChange={(e) =>
                       setData({ ...data, email: e.target.value })
@@ -179,44 +163,6 @@ export default function ContactBlock() {
                   />
                   {errors.email && (
                     <p className="text-[11px] text-[#ff9a9a]">{errors.email}</p>
-                  )}
-                </InputWrap>
-              </div>
-
-              <div className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-5">
-                <InputWrap label="Subject" htmlFor="subject">
-                  <input
-                    id="subject"
-                    type="text"
-                    value={data.subject}
-                    onChange={(e) =>
-                      setData({ ...data, subject: e.target.value })
-                    }
-                    className={inputCls}
-                    aria-invalid={!!errors.subject}
-                  />
-                  {errors.subject && (
-                    <p className="text-[11px] text-[#ff9a9a]">
-                      {errors.subject}
-                    </p>
-                  )}
-                </InputWrap>
-                <InputWrap label="Type" htmlFor="type">
-                  <select
-                    id="type"
-                    value={data.type}
-                    onChange={(e) => setData({ ...data, type: e.target.value })}
-                    className={selectCls}
-                    aria-invalid={!!errors.type}
-                  >
-                    <option value="">Select</option>
-                    <option value="general">General</option>
-                    <option value="events">Events</option>
-                    <option value="press">Press</option>
-                    <option value="rights">Rights</option>
-                  </select>
-                  {errors.type && (
-                    <p className="text-[11px] text-[#ff9a9a]">{errors.type}</p>
                   )}
                 </InputWrap>
               </div>
@@ -241,7 +187,7 @@ export default function ContactBlock() {
                 </InputWrap>
               </div>
 
-              <div className="mt-6 flex flex-col sm:flex-row items-center gap-3">
+              <div className="mt-5 flex flex-col sm:flex-row items-center gap-3">
                 <Button size="md">Send Message</Button>
                 <Button href="/about-book" variant="outline" size="md">
                   About the Book

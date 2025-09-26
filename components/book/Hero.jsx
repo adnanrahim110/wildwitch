@@ -34,10 +34,10 @@ export default function BookHero() {
             When The Forest Whispers Your Name, Do You Answer?
           </h1>
           <p className="mt-3 text-white/80 text-sm md:text-base max-w-prose">
-            Two girls—one cowgirl with a gift for animals, one cheer captain who
-            fears them, follow a hidden trail into a realm of pixies, sprites,
-            and a unicorn who chooses his riders. Wishes grow on trees here, but
-            every wish asks a question back.
+            Two girls, one cowgirl with a gift for animals, one cheer captain
+            who fears them, follow a hidden trail into a realm of pixies,
+            sprites, and a unicorn who chooses his riders. Wishes grow on trees
+            here, but every wish asks a question back.
           </p>
           <div className="mt-7 flex flex-col sm:flex-row items-center gap-3">
             <Button href="#blurb" variant="primary" size="lg">
@@ -46,15 +46,6 @@ export default function BookHero() {
             <Button href="#details" variant="outline" size="lg">
               Book Details
             </Button>
-          </div>
-          <div className="mt-6 flex flex-wrap items-center gap-2 text-[11px] text-white/70">
-            <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-3 py-1.5">
-              <BookOpen size={12} />
-              Sample pages available
-            </span>
-            <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-3 py-1.5">
-              Ages 9+ and up
-            </span>
           </div>
         </motion.div>
 
@@ -72,22 +63,15 @@ export default function BookHero() {
               transition={{ type: "spring", stiffness: 250, damping: 18 }}
               className="relative rounded-[22px] border border-white/12 bg-white/[0.03] p-3 shadow-[0_30px_100px_rgba(0,0,0,0.55)] backdrop-blur"
             >
-              <div className="relative aspect-[3/4] w-full overflow-hidden rounded-[14px] border border-white/10">
+              <div className="relative aspect-[3/4] w-full overflow-hidden">
                 <Image
-                  src="/Images/BookCover.jpg"
+                  src="/images/book-cover.png"
                   alt="Wild Witch cover"
                   fill
                   sizes="(max-width: 1024px) 80vw, 420px"
                   className="object-cover"
                   priority
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/35 via-transparent to-black/10" />
-              </div>
-              <div className="mt-3 flex items-center justify-between">
-                <div className="text-sm text-white/85">Book One</div>
-                <div className="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-white/[0.06] px-2.5 py-1 text-[11px] text-white/80">
-                  Fantasy
-                </div>
               </div>
             </motion.div>
           </div>

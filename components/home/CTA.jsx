@@ -64,17 +64,17 @@ export default function CTA() {
                         It Builds A World You’ll Want To Return To
                       </div>
                       <p className="mt-1 text-xs text-white/60">
-                        With unforgettable guides—Sunflower, Lilly, Sage, and
+                        With unforgettable guides, Sunflower, Lilly, Sage, and
                         Filla, beckoning you back down the Mystical Path.{" "}
                       </p>
                     </div>
                   </div>
                   <div className="mt-7 flex flex-col sm:flex-row items-center gap-3">
                     <Button href="/about-book" variant="primary" size="lg">
-                      Read About the Book
+                      Buy Now
                     </Button>
                     <Button href="/contact" variant="outline" size="lg">
-                      Contact Us
+                      Contact
                     </Button>
                   </div>
                 </div>

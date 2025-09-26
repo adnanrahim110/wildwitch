@@ -33,17 +33,17 @@ export default function Blurb() {
           <div className="mt-4 space-y-5 text-white/80 text-sm md:text-base leading-relaxed">
             <p>
               A sunlit paddock, a skittish heart, and a door in the woods no one
-              else can see. Willow—the ranch-raised “Cowgirl”—and Cally—the
-              fearless captain who secretly dreads horses—step onto the Mystical
-              Path and into a land where time lags, pixies gossip in thistles,
-              and a unicorn named Filla decides who is worthy. Why does the
-              Wishing Tree weigh intentions before it grants them? What truth is
-              tucked inside the old family book that points to a Wild Witch
-              legacy? Guided by Sunflower the pixie, Lilly the fairy, and Sage
-              the forest sprite, the girls learn that kindness has teeth,
+              else can see. Willow, the ranch-raised “Cowgirl,” and Cally, the
+              fearless captain who secretly dreads horses, step onto the
+              Mystical Path and into a land where time lags, pixies gossip in
+              thistles, and a unicorn named Filla decides who is worthy. Why
+              does the Wishing Tree weigh intentions before it grants them? What
+              truth is tucked inside the old family book that points to a Wild
+              Witch legacy? Guided by Sunflower the pixie, Lilly the fairy, and
+              Sage the forest sprite, the girls learn that kindness has teeth,
               courage has a pulse, and friendship is the one spell that never
               misfires. By summer’s end, they must choose what to protect: the
-              magic they found—or the world they left behind.
+              magic they found, or the world they left behind.
             </p>
           </div>
           <div className="mt-7 flex flex-col sm:flex-row items-center gap-3">

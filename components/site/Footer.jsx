@@ -73,7 +73,7 @@ export default function Footer() {
                           href="/contact"
                           className="text-white/75 hover:text-white transition"
                         >
-                          Contact Us
+                          Contact
                         </Link>
                       </li>
                     </ul>
@@ -132,7 +132,7 @@ export default function Footer() {
                 <div className="text-xs uppercase tracking-wide text-white/60">
                   Special Thanks
                 </div>
-                <div className="mt-3 rounded-2xl border border-white/10 bg-white/[0.05] p-4">
+                <div className="mt-3 rounded-2xl border border-white/10 bg-white/10 p-4">
                   <div className="flex flex-col items-start gap-3">
                     <div className="flex items-end gap-2">
                       <div className="w-24">
@@ -153,7 +153,7 @@ export default function Footer() {
                         With appreciation for support and inspiration.
                       </p>
                       <Link
-                        href="https://www.saalfieldpublishing.com"
+                        href="http://www.ebookvisionarypublishing.us/"
                         className="mt-3 inline-flex items-center gap-1.5 rounded-full bg-white text-black px-3 py-1.5 text-xs font-medium hover:opacity-90 transition"
                       >
                         Visit
@@ -176,10 +176,10 @@ export default function Footer() {
                 </p>
                 <div className="flex items-center gap-2">
                   <Link
-                    href="/about-book"
+                    href="/"
                     className="inline-flex items-center gap-1.5 rounded-full bg-white text-black px-4 py-2 text-xs font-medium hover:opacity-90 transition"
                   >
-                    Start Reading
+                    Buy Now
                     <ArrowUpRight size={14} />
                   </Link>
                 </div>

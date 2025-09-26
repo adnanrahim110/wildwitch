@@ -110,7 +110,7 @@ export default function Bio() {
                 <div className="rounded-3xl border border-white/10 bg-black/60 backdrop-blur">
                   <div className="relative aspect-[4/5] w-full overflow-hidden rounded-3xl">
                     <Image
-                      src="/Images/author-portrait.jpg"
+                      src="/images/author.jpg"
                       alt="Michael J. Dooley"
                       fill
                       className="object-cover"

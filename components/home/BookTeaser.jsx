@@ -51,7 +51,7 @@ export default function BookTeaser() {
 
           <div className="mt-8 flex flex-col sm:flex-row items-center gap-3">
             <Button href="/about-book" variant="primary" size="lg">
-              Read About the Book
+              Buy Book on Amazon
             </Button>
           </div>
         </motion.div>
@@ -69,21 +69,19 @@ export default function BookTeaser() {
               transition={{ type: "spring", stiffness: 250, damping: 18 }}
               className="relative rounded-[22px] border border-white/12 bg-white/[0.03] p-3 shadow-[0_30px_100px_rgba(0,0,0,0.55)] backdrop-blur"
             >
-              <div className="relative aspect-[3/4] w-full overflow-hidden rounded-[14px] border border-white/10">
+              <div className="relative aspect-[17/25] w-full overflow-hidden rounded-[14px] border border-white/10">
                 <Image
-                  src="/Images/BookCover.jpg"
+                  src="/images/front.jpg"
                   alt="Wild Witch cover"
                   fill
                   sizes="(max-width: 1024px) 80vw, 420px"
-                  className="object-cover"
+                  className="object-contain"
                   priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/35 via-transparent to-black/10" />
               </div>
               <div className="mt-3 flex items-center justify-between">
-                <div className="text-sm text-white/85">
-                  Wild Witch • Book One
-                </div>
+                <div className="text-sm text-white/85">Wild Witch • Book</div>
                 <div className="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-white/[0.06] px-2.5 py-1 text-[11px] text-white/80">
                   <Sparkles size={12} />
                   Fantasy

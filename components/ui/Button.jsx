@@ -22,7 +22,7 @@ const sizes = {
 };
 
 const base =
-  "inline-flex items-center justify-center rounded-full transition focus:outline-none focus-visible:ring-2 focus-visible:ring-white/40 disabled:opacity-60 disabled:pointer-events-none";
+  "inline-flex items-center justify-center rounded-full transition focus:outline-none focus-visible:ring-2 focus-visible:ring-white/40 disabled:opacity-60 disabled:pointer-events-none cursor-pointer disabled:cursor-not-allowed";
 
 const Button = forwardRef(function Button(
   {

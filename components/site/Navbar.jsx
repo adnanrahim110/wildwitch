@@ -11,7 +11,7 @@ const links = [
   { href: "/", label: "Home" },
   { href: "/about-author", label: "About the Author" },
   { href: "/about-book", label: "About the Book" },
-  { href: "/contact", label: "Contact Us" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export default function Navbar() {
