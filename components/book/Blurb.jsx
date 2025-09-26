@@ -19,7 +19,7 @@ export default function Blurb() {
           className="lg:col-span-7"
         >
           <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs text-white/80">
-            Blurb
+            About the Book
           </div>
           <h2
             className="mt-4 font-extrabold tracking-tight"
@@ -28,33 +28,22 @@ export default function Blurb() {
               fontSize: "clamp(1.6rem,3vw,2.4rem)",
             }}
           >
-            A story about listening to the world
+            The Summer the Forest Spoke Back
           </h2>
           <div className="mt-4 space-y-5 text-white/80 text-sm md:text-base leading-relaxed">
             <p>
-              Willow Anderson lives on a Texas horse ranch where mornings start
-              before the sun and the air smells like cedar and rain. She is a
-              quiet honor student who keeps a small circle of friends, the kind
-              of kids other people call misfits. Willow hears patterns most
-              people miss. Hooves on dry soil. Wind turning through tall grass.
-              A feeling that something kind is waiting if she learns how to
-              listen.
-            </p>
-            <p>
-              One summer the signs grow stronger. A new teacher appears with
-              patient eyes. A lost foal finds its way home after Willow whispers
-              to the pasture. The group stumbles into an old trail that should
-              not exist and discovers a line of Wild Witches whose gifts rise
-              from the living world. The rules are simple. Pay attention. Act
-              with care. Balance matters.
-            </p>
-            <p>
-              The days that follow pull Willow toward choices that test what she
-              believes. Friends become allies. Small risks become real trials.
-              The language stays clear and welcoming while the wonder keeps
-              growing. Wild Witch invites readers of all ages to step into a
-              bright, natural kind of magic where courage is quiet and every
-              decision carries weight.
+              A sunlit paddock, a skittish heart, and a door in the woods no one
+              else can see. Willow—the ranch-raised “Cowgirl”—and Cally—the
+              fearless captain who secretly dreads horses—step onto the Mystical
+              Path and into a land where time lags, pixies gossip in thistles,
+              and a unicorn named Filla decides who is worthy. Why does the
+              Wishing Tree weigh intentions before it grants them? What truth is
+              tucked inside the old family book that points to a Wild Witch
+              legacy? Guided by Sunflower the pixie, Lilly the fairy, and Sage
+              the forest sprite, the girls learn that kindness has teeth,
+              courage has a pulse, and friendship is the one spell that never
+              misfires. By summer’s end, they must choose what to protect: the
+              magic they found—or the world they left behind.
             </p>
           </div>
           <div className="mt-7 flex flex-col sm:flex-row items-center gap-3">

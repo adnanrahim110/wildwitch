@@ -19,9 +19,7 @@ export default function Hero() {
           className="text-center lg:text-left"
         >
           <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs text-white/80">
-            New Fantasy Series
-            <span className="inline-block h-1 w-1 rounded-full bg-white/50" />
-            For all ages
+            When The Woods Open A Door, Courage Rides In
           </div>
           <h1
             className="mt-4 text-balance font-extrabold tracking-tight drop-shadow"
@@ -41,9 +39,10 @@ export default function Hero() {
             <span className="absolute left-0 -bottom-1 block h-[2px] w-full bg-gradient-to-r from-white/0 via-white/70 to-white/0" />
           </div>
           <p className="mt-5 text-white/70 max-w-xl mx-auto lg:mx-0 text-sm md:text-base">
-            A spirited journey through magic, nature, and courage. Meet Willow
-            Anderson and step into a world where whispers of the wild reshape
-            destiny.
+            A cowgirl with a whisper for animals. A cheer captain with a fear of
+            big creatures. One hidden trail, and a realm where pixies gossip,
+            fairies cook lunch, and a wishing tree weighs your heart. This
+            summer, friendship becomes the strongest magic.
           </p>
           <div className="mt-7 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
             <Button href="/about-book" variant="primary" size="md">

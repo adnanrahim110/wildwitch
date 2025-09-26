@@ -96,18 +96,6 @@ export default function Bio() {
                     </div>
                   </div>
                 </div>
-
-                <div className="mt-10 flex items-center gap-4">
-                  <div className="h-px flex-1 bg-gradient-to-r from-transparent via-white/20 to-transparent" />
-                  <Image
-                    src="/Images/signature.svg"
-                    alt="Michael J. Dooley signature"
-                    width={160}
-                    height={48}
-                    className="opacity-80"
-                  />
-                  <div className="h-px flex-1 bg-gradient-to-r from-transparent via-white/20 to-transparent" />
-                </div>
               </div>
             </div>
 

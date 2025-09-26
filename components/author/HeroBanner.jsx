@@ -26,18 +26,21 @@ export default function HeroBanner() {
               lineHeight: 1.06,
             }}
           >
-            About Michael J. Dooley
+            Get To Know Michael j. Dooley
           </h1>
           <p className="mt-3 text-white/75 text-sm md:text-base max-w-prose">
-            Stories shaped by nature, heart, and imagination. Writing that stays
-            clear and welcoming while wonder keeps growing.
+            Before writing Wild Witch, Michael honed an eye for wonder through
+            years of photography, framing light, timing, and tiny details that
+            most people miss. That same instinct fuels his stories: warm, clean
+            adventures where courage, friendship, and a touch of wild magic feel
+            absolutely real.
           </p>
           <div className="mt-6 flex flex-col sm:flex-row gap-3">
             <Button href="/about-book" variant="primary" size="md">
               About the Book
             </Button>
             <Button href="/contact" variant="outline" size="md">
-              Contact Us
+              Contact
             </Button>
           </div>
         </motion.div>
@@ -50,7 +53,7 @@ export default function HeroBanner() {
         >
           <div className="relative aspect-[4/3] w-full rounded-3xl overflow-hidden border border-white/10 shadow-[0_30px_100px_rgba(0,0,0,0.45)]">
             <Image
-              src="/Images/author-banner.jpg"
+              src="/images/author.JPG"
               alt="Michael J. Dooley"
               fill
               priority

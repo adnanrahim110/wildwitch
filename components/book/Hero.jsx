@@ -21,7 +21,7 @@ export default function BookHero() {
         >
           <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs text-white/80">
             <Sparkles size={14} />
-            About the Book
+            Wild Witch
           </div>
           <h1
             className="mt-4 font-extrabold tracking-tight"
@@ -31,12 +31,13 @@ export default function BookHero() {
               lineHeight: 1.1,
             }}
           >
-            Wild Witch
+            When The Forest Whispers Your Name, Do You Answer?
           </h1>
           <p className="mt-3 text-white/80 text-sm md:text-base max-w-prose">
-            A clear, welcoming fantasy about Willow Anderson, a girl who listens
-            to the world and finds a gift rooted in nature and heart. The wonder
-            grows, the choices matter, and the language stays easy to read.
+            Two girls—one cowgirl with a gift for animals, one cheer captain who
+            fears them, follow a hidden trail into a realm of pixies, sprites,
+            and a unicorn who chooses his riders. Wishes grow on trees here, but
+            every wish asks a question back.
           </p>
           <div className="mt-7 flex flex-col sm:flex-row items-center gap-3">
             <Button href="#blurb" variant="primary" size="lg">
