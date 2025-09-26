@@ -53,7 +53,7 @@ export default function HeroBanner() {
         >
           <div className="relative aspect-[4/3] w-full rounded-3xl overflow-hidden border border-white/10 shadow-[0_30px_100px_rgba(0,0,0,0.45)]">
             <Image
-              src="/images/author.JPG"
+              src="/images/author.jpg"
               alt="Michael J. Dooley"
               fill
               priority

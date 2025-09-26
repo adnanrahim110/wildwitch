@@ -18,7 +18,7 @@ export default function AuthorTeaser() {
           className="relative aspect-square w-full max-w-xs mx-auto md:mx-0 overflow-hidden rounded-3xl border border-white/10 shadow-[0_20px_60px_rgba(0,0,0,0.5)]"
         >
           <Image
-            src="/images/author.JPG"
+            src="/images/author.jpg"
             alt="Michael J. Dooley"
             fill
             className="object-cover"
