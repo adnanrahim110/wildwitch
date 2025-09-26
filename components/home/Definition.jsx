@@ -9,7 +9,7 @@ export default function Definition() {
       <div className="absolute inset-0 bg-[radial-gradient(90%_60%_at_10%_0%,rgba(255,255,255,0.06),transparent_60%)]" />
       <div className="bg-noise" />
       <div className="container-max relative">
-        <div className="mx-auto max-w-2xl text-center">
+        <div className="mx-auto max-w-3xl text-center">
           <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs text-white/80">
             Definition
             <span className="inline-block h-1 w-1 rounded-full bg-white/50" />
@@ -26,15 +26,22 @@ export default function Definition() {
             What is a Wild Witch?
           </h2>
           <p className="mt-2 text-white/70 text-sm md:text-base">
-            A wild witch is someone who feels at home in nature, pays attention
-            to seasons and signs, and uses simple rituals to stay grounded and
-            kind. It’s everyday magic: quiet focus, small intentions, and
-            respect for living things.
+            A wild witch is a modern day spiritual practitioner who finds magic
+            in nature, practicing an intuitve, free-spirited path connected to
+            the earth's cycles and the four elements, earth, water, air and fire
+            plus all living things outside of traditional witches coven
+            structures. They embrace a deep respect for nature, acting as a
+            bridge between Earth and the cosmos though rituals, spells and a
+            life of gratitude and harmony with the environment created by
+            natural white magic that is everywhere. Their spirituality is rooted
+            in observing and learning from the natural world, including the
+            elements, plants, animals and the lunar cycle. Wild witchcraft is a
+            personal, often solitary path that emphasizes inherent magical
+            abilities and a free-spirited expression of spirituality.
           </p>
-          <p className="mt-3 text-white/70 text-sm md:text-base">
-            In these stories the idea grows bigger and brighter. The wild calls
-            louder, the gifts are stronger, and choices matter. It’s still about
-            balance and heart, just with more wonder.
+          <p className="mt-3 text-white text-sm md:text-base font-semibold italic">
+            However my fictional version of a Wild Witch may be very similar but
+            is much more magical!
           </p>
         </div>
         <motion.div

@@ -84,7 +84,7 @@ export default function Navbar() {
                   {active && (
                     <motion.span
                       layoutId="nav-underline"
-                      className="pointer-events-none absolute left-3 right-3 -bottom-0.5 h-[2px] bg-white"
+                      className="pointer-events-none absolute left-3 right-3 bottom-1.5 h-[2px] bg-white"
                       transition={{
                         type: "spring",
                         stiffness: 500,

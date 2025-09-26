@@ -47,13 +47,18 @@ export default function AuthorTeaser() {
             <span className="absolute left-0 -bottom-1 block h-[2px] w-full bg-gradient-to-r from-white/0 via-white/70 to-white/0" />
           </div>
           <p className="mt-3 text-white/70 text-sm md:text-base leading-relaxed">
-            Raised mostly in Toronto, Canada, Michael J Dooley studied computer
-            sciences at Humber College and photography/digital arts at Ryerson
-            Polytechnic. After twelve years as a professional photographer in
-            Peterburg, Ontario, he moved to Orangeville and began writing
-            adventure, fantasy tales originally aimed at children and teens,
-            stories now cherished by readers of all ages for their warmth,
-            wonder, and clean, page-turning spirit.
+            Born and raised mostly in Toronto, Canada, Michael J Dooley
+            graduated from high school, then took courses at Humber College in
+            computer sciences, followed by attending Ryerson Polytechnic, where
+            he learned photography and digital arts. He spent twelve years as a
+            professional photographer in Peterborough, Ontario, then moved to
+            Orangeville, where he retired and now spends his time writing
+            adventure fantasy stories that were intended for children and teens,
+            but he found people of all ages all over the world were enjoying his
+            magical tales of fantasy and adventures. His inspirations to tell
+            these tales all come from his life experiences as he grew up, plus
+            his imagination and desire to create worlds that he wished were real
+            but only possible in his fictional novels.
           </p>
           <div className="mt-6">
             <Button href="/about-author" variant="primary" size="md">
