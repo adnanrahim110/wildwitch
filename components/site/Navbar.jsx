@@ -97,8 +97,8 @@ export default function Navbar() {
               );
             })}
             <li className="ml-2">
-              <Button href="/about-book" variant="primary" size="md">
-                Start Reading
+              <Button href="/" variant="primary" size="md">
+                Buy Now
               </Button>
             </li>
           </ul>
