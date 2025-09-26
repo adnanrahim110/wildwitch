@@ -132,38 +132,35 @@ export default function Footer() {
                 <div className="text-xs uppercase tracking-wide text-white/60">
                   Special Thanks
                 </div>
-                <div className="mt-3 rounded-2xl border border-white/10 bg-white/10 p-4">
+                <div className="mt-3 rounded-2xl border border-white/10 bg-white/[0.05] py-3 px-2 relative">
                   <div className="flex flex-col items-start gap-3">
-                    <div className="flex items-end gap-2">
-                      <div className="w-24">
+                    <div className="flex items-end gap-1">
+                      <div className="w-40">
                         <Image
                           src="/images/evp-logo.png"
-                          width={200}
-                          height={200}
+                          width={600}
+                          height={600}
                           className="w-full h-auto"
                           alt="EBook Visionary Publishing"
                         />
                       </div>
-                      <div className="inline-flex items-center text-sm gap-2 text-white/85">
-                        EBook VIsionary Publishing
-                      </div>
                     </div>
                     <div className="text-sm">
-                      <p className="mt-1 text-xs text-white/65">
+                      <p className="text-[11px] text-white/65">
                         With appreciation for support and inspiration.
                       </p>
-                      <Link
-                        href="http://www.ebookvisionarypublishing.us/"
-                        className="mt-3 inline-flex items-center gap-1.5 rounded-full bg-white text-black px-3 py-1.5 text-xs font-medium hover:opacity-90 transition"
-                      >
-                        Visit
-                        <ArrowUpRight size={14} />
-                      </Link>
                     </div>
                   </div>
-                </div>
-                <div className="mt-3 text-[11px] text-white/55">
-                  Logos and names are used with acknowledgment.
+                  <Link
+                    href="http://www.ebookvisionarypublishing.us/"
+                    className="absolute right-1.5 top-1.5 inline-flex items-center gap-1.5 rounded-full bg-white text-black px-3 py-1.5 text-xs font-medium hover:opacity-90 transition"
+                  >
+                    Visit
+                    <ArrowUpRight size={14} />
+                  </Link>
+                  <div className="text-[11px] text-white/55 absolute -bottom-5 left-1/2 -translate-x-1/2 whitespace-nowrap">
+                    Logos and name are used with acknowledgment.*
+                  </div>
                 </div>
               </div>
             </div>

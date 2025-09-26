@@ -1,3 +1,4 @@
+import Sample from "@/components/book/Sample";
 import AuthorTeaser from "@/components/home/AuthorTeaser";
 import BookTeaser from "@/components/home/BookTeaser";
 import CTA from "@/components/home/CTA";
@@ -11,6 +12,7 @@ export default function HomePage() {
       <Definition />
       <AuthorTeaser />
       <BookTeaser />
+      <Sample />
       <CTA />
     </main>
   );

@@ -42,7 +42,7 @@ export default function AuthorTeaser() {
           </h2>
           <div className="relative mt-2 inline-block">
             <p className="text-white/85 text-pretty text-base md:text-lg">
-              Michael J Dooley—Capturing Magic In Every Frame And Page
+              Michael J Dooley — Capturing Magic In Every Frame And Page
             </p>
             <span className="absolute left-0 -bottom-1 block h-[2px] w-full bg-gradient-to-r from-white/0 via-white/70 to-white/0" />
           </div>

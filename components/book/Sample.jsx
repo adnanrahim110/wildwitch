@@ -3,6 +3,7 @@
 
 import Button from "@/components/ui/Button";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Sample() {
   return (
@@ -18,71 +19,35 @@ export default function Sample() {
           transition={{ duration: 0.5 }}
           className="lg:col-span-7"
         >
-          <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs text-white/80">
-            Sample Pages
-          </div>
-          <h2
-            className="mt-4 font-extrabold tracking-tight"
-            style={{
-              fontFamily: "Arial, Helvetica, sans-serif",
-              fontSize: "clamp(1.6rem,3vw,2.4rem)",
-            }}
-          >
-            Chapter One: Cedar Wind
-          </h2>
-
-          <div className="mt-5 rounded-3xl border border-white/10 bg-gradient-to-br from-white/[0.06] to-white/[0.02] p-6 md:p-8 backdrop-blur shadow-[0_30px_100px_rgba(0,0,0,0.45)]">
-            <div className="text-[11px] uppercase tracking-wide text-white/60">
-              Page 1
-            </div>
+          <div className="rounded-3xl border border-white/10 bg-gradient-to-br from-white/[0.06] to-white/[0.02] p-6 md:p-8 backdrop-blur shadow-[0_30px_100px_rgba(0,0,0,0.45)]">
+            <h2
+              className="mt-4 font-extrabold tracking-tight"
+              style={{
+                fontFamily: "Arial, Helvetica, sans-serif",
+                fontSize: "clamp(1.2rem,2.6vw,2.1rem)",
+              }}
+            >
+              Main Character: Willow Anderson
+            </h2>
             <div className="mt-2 space-y-4 text-white/85 text-sm md:text-base leading-relaxed">
               <p>
-                Morning came soft over the pasture. Willow stood at the fence
-                and listened. Wind moved through the cedar line, a hush like
-                ocean breath, then the quiet thud of hooves far off. The day was
-                making small promises.
+                Willow was born and raised on her parents horse ranch in Texas.
+                She learned how to ride a horse at a very young age plus always
+                helped out on the ranch when she got older. Even as a very young
+                girl she was able to talk to animals and they seemed to
+                understand her. As she got older and was walking home from
+                school small animals would follow her home, like cats, dogs,
+                rabbits and squirrels. Willow is an honor student and has a
+                close group of best friends that the other students in the
+                school call the group of misfits. She is eighteen now and just
+                started her summer holidays from high school. During this summer
+                break she discovers she comes from a long blood line of Wild
+                Witches but she is found to have very powerful magic compared to
+                any other witches her age. She goes on many adventures in some
+                of the most magical lands one could ever imagine during this
+                summer meeting incredible and magical mystical beings as the
+                power inside her grows stronger and stronger every day!
               </p>
-              <p>
-                She closed her eyes and counted the beats. Two, then three, then
-                a space where the ground felt different. The foal was wandering
-                near the wash. Willow breathed once for steadiness and let the
-                sound find her.
-              </p>
-              <p>
-                When she opened her eyes, the light had shifted. The cedar’s
-                shadow reached toward her boots, and somewhere in it she felt a
-                tug, not a voice, more like a thread pulled from the edge of a
-                sweater. Come look.
-              </p>
-            </div>
-
-            <div className="mt-6 h-px w-full bg-gradient-to-r from-transparent via-white/15 to-transparent" />
-
-            <div className="mt-6 text-[11px] uppercase tracking-wide text-white/60">
-              Page 2
-            </div>
-            <div className="mt-2 space-y-4 text-white/85 text-sm md:text-base leading-relaxed">
-              <p>
-                She walked the fence line until the earth changed underfoot. The
-                wash held the night’s rain in shallow mirrors. Willow crouched
-                and watched rings widen where a drop fell. The pattern was calm,
-                then not calm at all.
-              </p>
-              <p>
-                “Easy,” she said to the morning. The word went out the way
-                breath leaves in winter, visible just for a second. She felt it
-                settle into the grass and carry along the ground, gentle and
-                sure.
-              </p>
-            </div>
-
-            <div className="mt-6 flex flex-col sm:flex-row items-center gap-3">
-              <Button href="/contact" variant="primary" size="md">
-                Request Full Sample
-              </Button>
-              <Button href="#details" variant="outline" size="md">
-                See Book Details
-              </Button>
             </div>
           </div>
         </motion.div>
@@ -92,23 +57,16 @@ export default function Sample() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.06 }}
-          className="lg:col-span-5"
+          className="lg:col-span-5 h-full"
         >
-          <div className="p-[1px] rounded-3xl bg-gradient-to-br from-white/30 via-white/10 to-transparent">
-            <div className="rounded-3xl border border-white/10 bg-black/60 backdrop-blur p-6 md:p-8">
-              <div className="text-xs uppercase tracking-wide text-white/60">
-                What to notice
-              </div>
-              <ul className="mt-4 space-y-3 text-sm text-white/85">
-                <li>Clear, readable lines designed for all ages.</li>
-                <li>Magic that rises from sound, light, and weather.</li>
-                <li>Quiet choices that gather into courage.</li>
-              </ul>
-              <div className="mt-6 h-px w-full bg-gradient-to-r from-transparent via-white/15 to-transparent" />
-              <div className="mt-4 text-xs text-white/65">
-                This excerpt reflects tone and pacing. Final text may vary
-                slightly.
-              </div>
+          <div className="p-[1px] rounded-3xl bg-gradient-to-br from-white/30 via-white/10 to-transparent h-full">
+            <div className="rounded-3xl border border-white/10 bg-black/60 backdrop-blur p-6 md:p-8 h-full overflow-hidden">
+              <Image
+                src="/images/main-char.jpg"
+                alt="Main Character"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
         </motion.aside>

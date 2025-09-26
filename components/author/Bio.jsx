@@ -51,9 +51,9 @@ export default function Bio() {
                 <div className="my-8 rounded-3xl border border-white/10 bg-gradient-to-br from-white/[0.06] to-white/[0.02] p-6 backdrop-blur">
                   <div className="text-5xl leading-none text-white/15">“</div>
                   <p className="-mt-4 text-white/90 text-[0.98rem] md:text-lg">
-                    I believe a quiet choice can change a life. The world does
+                    "I believe a quiet choice can change a life. The world does
                     not need noise to feel magical. It needs attention and
-                    heart.
+                    heart."
                   </p>
                 </div>
 
