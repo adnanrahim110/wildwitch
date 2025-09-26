@@ -10,11 +10,6 @@ export default function Definition() {
       <div className="bg-noise" />
       <div className="container-max relative">
         <div className="mx-auto max-w-3xl text-center">
-          <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs text-white/80">
-            Definition
-            <span className="inline-block h-1 w-1 rounded-full bg-white/50" />
-            Plain and simple
-          </div>
           <h2
             className="mt-4 text-balance font-extrabold tracking-tight"
             style={{
