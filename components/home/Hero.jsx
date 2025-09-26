@@ -10,7 +10,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-[radial-gradient(120%_80%_at_50%_-20%,rgba(255,255,255,0.12),transparent_60%)]" />
       <div className="absolute -left-20 top-1/2 -translate-y-1/2 h-[42rem] w-[42rem] rounded-full blur-3xl opacity-10 bg-[#ff4444]" />
       <div className="bg-noise" />
-      <div className="container-max relative grid grid-cols-1 lg:grid-cols-2 gap-10 items-center py-16 lg:py-28">
+      <div className="container-max relative grid grid-cols-1 lg:grid-cols-[0.7fr_1fr] gap-10 items-center py-16 lg:py-28">
         <motion.div
           initial={{ y: 24, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
@@ -52,20 +52,6 @@ export default function Hero() {
               What is a Wild Witch?
             </Button>
           </div>
-          <div className="mt-8 flex flex-wrap items-center justify-center lg:justify-start gap-4 text-xs text-white/60">
-            <div className="flex items-center gap-2 rounded-lg border border-white/10 bg-white/[0.03] px-3 py-2">
-              <span className="h-2 w-2 rounded-full bg-emerald-400/80" />
-              Nature & Magic
-            </div>
-            <div className="flex items-center gap-2 rounded-lg border border-white/10 bg-white/[0.03] px-3 py-2">
-              <span className="h-2 w-2 rounded-full bg-sky-400/80" />
-              Allies & Trials
-            </div>
-            <div className="flex items-center gap-2 rounded-lg border border-white/10 bg-white/[0.03] px-3 py-2">
-              <span className="h-2 w-2 rounded-full bg-fuchsia-400/80" />
-              Heart & Adventure
-            </div>
-          </div>
         </motion.div>
         <motion.div
           initial={{ y: 24, opacity: 0 }}
@@ -74,7 +60,7 @@ export default function Hero() {
           transition={{ duration: 0.55, delay: 0.08 }}
           className="relative"
         >
-          <div className="relative aspect-[4/3] w-full rounded-3xl overflow-hidden border border-white/10 shadow-[0_30px_100px_rgba(0,0,0,0.45)]">
+          <div className="relative aspect-[425/214] w-full rounded-3xl overflow-hidden border border-white/10 shadow-[0_30px_100px_rgba(0,0,0,0.45)]">
             <Image
               src="/images/hero-sec.jpg"
               alt="Wild Witch world artwork"
@@ -84,27 +70,6 @@ export default function Hero() {
               className="object-cover will-change-transform"
             />
             <div className="absolute inset-0 bg-gradient-to-tr from-black/40 via-transparent to-black/20" />
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              viewport={{ once: true }}
-              transition={{ delay: 0.25, duration: 0.6 }}
-              className="absolute left-4 right-4 bottom-4 rounded-2xl backdrop-blur-md bg-black/35 border border-white/10 p-4"
-            >
-              <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-                <div>
-                  <p className="text-xs uppercase tracking-wide text-white/60">
-                    Featured
-                  </p>
-                  <p className="mt-0.5 text-sm text-white/90">
-                    Willow’s first summer of magic begins here
-                  </p>
-                </div>
-                <Button href="/about-book" variant="primary" size="sm">
-                  Explore the Book
-                </Button>
-              </div>
-            </motion.div>
           </div>
         </motion.div>
       </div>
