@@ -53,12 +53,12 @@ export default function AuthorTeaser() {
             he learned photography and digital arts. He spent twelve years as a
             professional photographer in Peterborough, Ontario, then moved to
             Orangeville, where he retired and now spends his time writing
-            adventure fantasy stories that were intended for children and teens,
-            but he found people of all ages all over the world were enjoying his
-            magical tales of fantasy and adventures. His inspirations to tell
-            these tales all come from his life experiences as he grew up, plus
-            his imagination and desire to create worlds that he wished were real
-            but only possible in his fictional novels.
+            adventure fantasy stories that were intended for teens and young
+            adults, but he found people of all ages all over the world were
+            enjoying his magical tales of fantasy and adventures. His
+            inspirations to tell these tales all come from his life experiences
+            as he grew up, plus his imagination and desire to create worlds that
+            he wished were real but only possible in his fictional novels.
           </p>
           <div className="mt-6">
             <Button href="/about-author" variant="primary" size="md">

@@ -34,19 +34,20 @@ export default function BookTeaser() {
             A Hidden Realm, A Fierce Friendship & A Wild Witch Legacy
           </h2>
           <p className="mt-3 text-white/80 text-sm md:text-base max-w-prose">
-            Willow, the ranch-raised “Cowgirl,” and Cally, the school’s fearless
-            cheer captain (who’s secretly terrified of horses), stumble onto the
-            Mystical Path and ride straight into Magic Land,where time moves
-            differently and wonder feels close enough to touch.
+            Willow, the ranch-raised “Countrygirl,” and Cally, the school’s
+            fearless cheerleader captain (who was secretly terrified of horses),
+            stumble onto the Mystical Path and ride straight into Magic Land,
+            where time moves differently and wonder feels close enough to touch.
           </p>
           <p className="mt-3 text-white/80 text-sm md:text-base max-w-prose">
-            Guided by Sunflower the pixie, Lilly the fairy, Sage the Forest
-            Sprite, and a unicorn named Filla, the girls discover wishing trees,
-            kindness with teeth, and the truth that real magic looks a lot like
-            courage, loyalty, and love. Back home, an old family book hints that
-            Willow’s roots run deeper than anyone guessed, into the lineage of a
-            Wild Witch. Stakes rise, hearts widen, and a single summer becomes
-            the beginning of everything.
+            Guided by Sunflower and then Chestnut, two pixies, they first meet
+            elves, then Lilly the fairy, Sage the Forest Sprite, and a unicorn
+            named Filla. The girls discover a wishing tree, kindness from
+            strangers, and the truth that real magic looks a lot like
+            friendship, teamwork, and, most importantly, love. Back home, an old
+            family book hints that Willow’s roots run deeper than anyone
+            guessed, into the lineage of a Wild Witch. Stakes rise, hearts
+            widen, and a single summer becomes the beginning of everything.
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row items-center gap-3">
@@ -90,9 +91,6 @@ export default function BookTeaser() {
             </motion.div>
           </div>
         </motion.div>
-      </div>
-      <div className="mt-12 md:mt-16 flex justify-center">
-        <div className="h-px w-[92%] max-w-5xl bg-gradient-to-r from-transparent via-white/15 to-transparent" />
       </div>
       <div className="section-edge" />
     </section>

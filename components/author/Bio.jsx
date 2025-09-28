@@ -64,38 +64,12 @@ export default function Bio() {
                   without strain and still feel depth in what follows.
                 </p>
                 <p>
-                  Away from the desk he keeps slim notebooks, sketches branches
-                  and light, and notes how people speak when they are honest.
-                  Those fragments become maps. They guide each chapter toward
-                  balance, where risk and kindness meet.
+                  Away from the desk, he keeps mental notes wherever he goes,
+                  plus seeing how people speak when they are honest and when
+                  they are hiding something. Those fragments become maps. They
+                  guide each chapter toward balance, where adventure and
+                  kindness meet.
                 </p>
-
-                <div className="mt-10 grid grid-cols-1 sm:grid-cols-3 gap-4">
-                  <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm">
-                    <div className="text-white/60 text-xs uppercase tracking-wide">
-                      Roots
-                    </div>
-                    <div className="mt-1 text-white/85">
-                      Toronto, notebooks, long walks
-                    </div>
-                  </div>
-                  <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm">
-                    <div className="text-white/60 text-xs uppercase tracking-wide">
-                      Focus
-                    </div>
-                    <div className="mt-1 text-white/85">
-                      Clarity of language, natural magic
-                    </div>
-                  </div>
-                  <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-sm">
-                    <div className="text-white/60 text-xs uppercase tracking-wide">
-                      Themes
-                    </div>
-                    <div className="mt-1 text-white/85">
-                      Courage, friendship, balance
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
 
@@ -127,7 +101,6 @@ export default function Bio() {
                       <li>Author of Wild Witch</li>
                       <li>Photography background</li>
                       <li>Writes for all ages</li>
-                      <li>Nature as guide and muse</li>
                     </ul>
                   </div>
                 </div>

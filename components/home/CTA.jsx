@@ -22,10 +22,6 @@ export default function CTA() {
             <div className="rounded-3xl bg-black/60 backdrop-blur-xl border border-white/10">
               <div className="grid grid-cols-1 gap-0">
                 <div className="relative lg:col-span-3 p-8 md:p-12">
-                  <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs text-white/80">
-                    <Sparkles size={14} />
-                    Begin the journey
-                  </div>
                   <h3
                     className="mt-4 text-balance font-extrabold tracking-tight"
                     style={{

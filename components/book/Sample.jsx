@@ -31,22 +31,26 @@ export default function Sample() {
             </h2>
             <div className="mt-2 space-y-4 text-white/85 text-sm md:text-base leading-relaxed">
               <p>
-                Willow was born and raised on her parents horse ranch in Texas.
-                She learned how to ride a horse at a very young age plus always
-                helped out on the ranch when she got older. Even as a very young
-                girl she was able to talk to animals and they seemed to
-                understand her. As she got older and was walking home from
-                school small animals would follow her home, like cats, dogs,
-                rabbits and squirrels. Willow is an honor student and has a
-                close group of best friends that the other students in the
-                school call the group of misfits. She is eighteen now and just
-                started her summer holidays from high school. During this summer
-                break she discovers she comes from a long blood line of Wild
-                Witches but she is found to have very powerful magic compared to
-                any other witches her age. She goes on many adventures in some
-                of the most magical lands one could ever imagine during this
-                summer meeting incredible and magical mystical beings as the
-                power inside her grows stronger and stronger every day!
+                Willow was born and raised on her parents' horse ranch in Texas.
+                She learned how to ride a horse at a very young age, plus she
+                always helped out on the ranch as she got older. Even as a very
+                young girl, she was able to talk to animals, and they seemed to
+                understand her. As she started going to high school that was
+                within walking distance, small animals would follow her going
+                and coming home, like cats, dogs, rabbits and squirrels. Willow
+                is an honor student and has a close group of best friends that
+                the other students in the school call the group of misfits. She
+                is eighteen now and has just started her summer holidays from
+                high school. During this summer break, Willow discovers she
+                comes from a long bloodline of Wild Witches that have very
+                unique magical abilities, but soon she is found to have very
+                powerful magic compared to any other witches her age and even
+                older ones. She goes on many adventures in some of the most
+                magical lands one could ever imagine during this first summer,
+                meeting incredible and magical mystical beings as the power
+                inside her grows stronger and stronger as every day passes!
+                Willow considers herself to be a country girl, just with magical
+                powers she always uses for good.
               </p>
             </div>
           </div>

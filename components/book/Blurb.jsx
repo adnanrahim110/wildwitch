@@ -18,9 +18,6 @@ export default function Blurb() {
           transition={{ duration: 0.5 }}
           className="lg:col-span-7"
         >
-          <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs text-white/80">
-            About the Book
-          </div>
           <h2
             className="mt-4 font-extrabold tracking-tight"
             style={{
@@ -46,14 +43,6 @@ export default function Blurb() {
               magic they found, or the world they left behind.
             </p>
           </div>
-          <div className="mt-7 flex flex-col sm:flex-row items-center gap-3">
-            <Button href="#inside" variant="primary" size="md">
-              Inside the World
-            </Button>
-            <Button href="#sample" variant="outline" size="md">
-              Read a Sample
-            </Button>
-          </div>
         </motion.div>
 
         <motion.aside
@@ -68,30 +57,30 @@ export default function Blurb() {
               <div className="text-xs uppercase tracking-wide text-white/60">
                 Promise to readers
               </div>
-              <ul className="mt-4 space-y-3 text-sm text-white/85">
+              <ul className="space-y-3 text-sm text-white/85">
                 <li className="flex items-start gap-2">
                   <span className="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-white/10 border border-white/15">
                     <Leaf size={12} />
                   </span>
-                  Magic that feels like wind, water, cedar, and light.
+                  Nature isn’t backdrop; it’s a speaking character.
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-white/10 border border-white/15">
                     <Users size={12} />
                   </span>
-                  Loyal friends, calm wisdom, kindness that holds.
+                  Wonder without the clichés: fresh creatures, fresh rules.
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-white/10 border border-white/15">
                     <Sparkles size={12} />
                   </span>
-                  Clear, welcoming prose that grows into wonder.
+                  Friendship arcs that heal without getting preachy.
                 </li>
               </ul>
               <div className="mt-6 h-px w-full bg-gradient-to-r from-transparent via-white/15 to-transparent" />
               <div className="mt-4 grid grid-cols-3 gap-3 text-center">
                 <div className="rounded-xl border border-white/10 bg-white/[0.04] px-3 py-2">
-                  <div className="text-lg font-semibold text-white">9+</div>
+                  <div className="text-lg font-semibold text-white">13+</div>
                   <div className="text-[10px] text-white/60">Age range</div>
                 </div>
                 <div className="rounded-xl border border-white/10 bg-white/[0.04] px-3 py-2">
@@ -101,8 +90,8 @@ export default function Blurb() {
                   <div className="text-[10px] text-white/60">Genre</div>
                 </div>
                 <div className="rounded-xl border border-white/10 bg-white/[0.04] px-3 py-2">
-                  <div className="text-lg font-semibold text-white">Sample</div>
-                  <div className="text-[10px] text-white/60">Included</div>
+                  <div className="text-lg font-semibold text-white">Magic</div>
+                  <div className="text-[10px] text-white/60">Theme</div>
                 </div>
               </div>
             </div>

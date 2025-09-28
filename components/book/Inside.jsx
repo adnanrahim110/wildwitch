@@ -19,10 +19,6 @@ export default function Inside() {
           transition={{ duration: 0.5 }}
           className="mx-auto max-w-3xl text-center"
         >
-          <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs text-white/80">
-            <Sparkles size={14} />
-            Inside the world
-          </div>
           <h2
             className="mt-4 font-extrabold tracking-tight"
             style={{
@@ -30,7 +26,7 @@ export default function Inside() {
               fontSize: "clamp(1.7rem,3vw,2.5rem)",
             }}
           >
-            Three threads that shape the story
+            Three Reasons to Grab This Book Today
           </h2>
           <p className="mt-3 text-white/75 text-sm md:text-base">
             Power from the living world, friendships that hold, and choices that
@@ -57,18 +53,12 @@ export default function Inside() {
           >
             <div className="flex items-center gap-2 text-white">
               <Leaf size={18} />
-              <div className="font-semibold">Magic & Nature</div>
+              <div className="font-semibold">It’s Pure, Shareable Magic</div>
             </div>
             <p className="mt-2 text-xs text-white/70">
-              Wind, water, cedar, and light. Gifts that feel like weather, not
-              tricks.
+              Imagination-rich wonder without grim darkness, perfect for young
+              readers and the young at heart.
             </p>
-            <div className="mt-4 h-px w-full bg-gradient-to-r from-transparent via-white/15 to-transparent" />
-            <ul className="mt-3 space-y-2 text-xs text-white/65">
-              <li>Listen first</li>
-              <li>Act with care</li>
-              <li>Keep balance</li>
-            </ul>
           </motion.div>
 
           <motion.div
@@ -80,17 +70,11 @@ export default function Inside() {
           >
             <div className="flex items-center gap-2 text-white">
               <Users size={18} />
-              <div className="font-semibold">Allies & Adversaries</div>
+              <div className="font-semibold">It Champions & Kindness</div>
             </div>
             <p className="mt-2 text-xs text-white/70">
-              Loyal friends, patient guides, and the few who push too far.
+              Helping kids see fear as a doorway and friendship as real power.
             </p>
-            <div className="mt-4 h-px w-full bg-gradient-to-r from-transparent via-white/15 to-transparent" />
-            <ul className="mt-3 space-y-2 text-xs text-white/65">
-              <li>Trust earned slowly</li>
-              <li>Wisdom over noise</li>
-              <li>Kindness that holds</li>
-            </ul>
           </motion.div>
 
           <motion.div
@@ -102,18 +86,14 @@ export default function Inside() {
           >
             <div className="flex items-center gap-2 text-white">
               <Compass size={18} />
-              <div className="font-semibold">Journeys & Trials</div>
+              <div className="font-semibold">
+                It Builds A World You’ll Want To Return To
+              </div>
             </div>
             <p className="mt-2 text-xs text-white/70">
-              Quiet choices that grow into real tests and shape who Willow
-              becomes.
+              With unforgettable guides, Sunflower, Lilly, Sage, and Filla,
+              beckoning you back down the Mystical Path.
             </p>
-            <div className="mt-4 h-px w-full bg-gradient-to-r from-transparent via-white/15 to-transparent" />
-            <ul className="mt-3 space-y-2 text-xs text-white/65">
-              <li>Small risks first</li>
-              <li>Bravery in steady steps</li>
-              <li>Consequences that matter</li>
-            </ul>
           </motion.div>
         </motion.div>
       </div>

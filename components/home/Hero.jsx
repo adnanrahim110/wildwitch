@@ -10,17 +10,14 @@ export default function Hero() {
       <div className="absolute inset-0 bg-[radial-gradient(120%_80%_at_50%_-20%,rgba(255,255,255,0.12),transparent_60%)]" />
       <div className="absolute -left-20 top-1/2 -translate-y-1/2 h-[42rem] w-[42rem] rounded-full blur-3xl opacity-10 bg-[#ff4444]" />
       <div className="bg-noise" />
-      <div className="container-max relative grid grid-cols-1 lg:grid-cols-[0.7fr_1fr] gap-10 items-center py-16 lg:py-28">
+      <div className="container-max relative py-16 lg:py-28">
         <motion.div
           initial={{ y: 24, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           viewport={{ once: true, margin: "-20% 0px -20% 0px" }}
           transition={{ duration: 0.55 }}
-          className="text-center lg:text-left"
+          className="text-center"
         >
-          <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs text-white/80">
-            When The Woods Open A Door, Courage Rides In
-          </div>
           <h1
             className="mt-4 text-balance font-extrabold tracking-tight drop-shadow"
             style={{
@@ -36,40 +33,21 @@ export default function Hero() {
             <p className="text-white/85 text-pretty text-base md:text-lg">
               Adventure Fantasy Tales by Michael J. Dooley
             </p>
-            <span className="absolute left-0 -bottom-1 block h-[2px] w-full bg-gradient-to-r from-white/0 via-white/70 to-white/0" />
           </div>
-          <p className="mt-5 text-white/70 max-w-xl mx-auto lg:mx-0 text-sm md:text-base">
-            A cowgirl with a whisper for animals. A cheer captain with a fear of
-            big creatures. One hidden trail, and a realm where pixies gossip,
-            fairies cook lunch, and a wishing tree weighs your heart. This
-            summer, friendship becomes the strongest magic.
+          <p className="mt-5 text-white/70 mx-auto max-w-2xl text-sm md:text-base">
+            A teenage country girl who can talk to animals. A cheerleader
+            captain with a fear of big animals, especially horses. One hidden
+            trail, and a magical realm where pixies gossip, fairies make food
+            with magic, and a wishing tree weighs your heart. This summer brings
+            friendship, adventure and magic.
           </p>
-          <div className="mt-7 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start">
+          <div className="mt-7 flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
             <Button href="/about-book" variant="primary" size="md">
               About the Book
             </Button>
             <Button href="#definition" variant="outline" size="md">
               What is a Wild Witch?
             </Button>
-          </div>
-        </motion.div>
-        <motion.div
-          initial={{ y: 24, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          viewport={{ once: true, margin: "-20% 0px -20% 0px" }}
-          transition={{ duration: 0.55, delay: 0.08 }}
-          className="relative"
-        >
-          <div className="relative aspect-[425/214] w-full rounded-3xl overflow-hidden border border-white/10 shadow-[0_30px_100px_rgba(0,0,0,0.45)]">
-            <Image
-              src="/images/hero-sec.jpg"
-              alt="Wild Witch world artwork"
-              fill
-              priority
-              sizes="(max-width: 1024px) 100vw, 50vw"
-              className="object-cover will-change-transform"
-            />
-            <div className="absolute inset-0 bg-gradient-to-tr from-black/40 via-transparent to-black/20" />
           </div>
         </motion.div>
       </div>

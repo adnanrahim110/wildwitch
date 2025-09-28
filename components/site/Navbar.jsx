@@ -80,7 +80,7 @@ export default function Navbar() {
                     <span className="absolute inset-0 rounded-md opacity-0 peer-hover:opacity-100 transition bg-white/[0.02] ring-1 ring-inset ring-white/5" />
                     <span className="relative">{l.label}</span>
                   </Link>
-                  <span className="pointer-events-none absolute left-3 right-3 -bottom-0.5 h-[2px] origin-left scale-x-0 bg-white/30 transition-transform duration-200 peer-hover:scale-x-100" />
+                  <span className="pointer-events-none absolute left-3 right-3 bottom-1.5 h-[2px] origin-left scale-x-0 bg-white/30 transition-transform duration-200 peer-hover:scale-x-100" />
                   {active && (
                     <motion.span
                       layoutId="nav-underline"

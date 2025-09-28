@@ -34,17 +34,14 @@ export default function BookHero() {
             When The Forest Whispers Your Name, Do You Answer?
           </h1>
           <p className="mt-3 text-white/80 text-sm md:text-base max-w-prose">
-            Two girls, one cowgirl with a gift for animals, one cheer captain
-            who fears them, follow a hidden trail into a realm of pixies,
-            sprites, and a unicorn who chooses his riders. Wishes grow on trees
-            here, but every wish asks a question back.
+            Two girls, one country girl with a gift for animals, one cheerleader
+            captain who feared large animals, follow a hidden trail into a realm
+            of pixies, sprites, fairies and a unicorn who chooses his riders.
+            Wishes grow on trees here, but every wish requires a true heart.
           </p>
           <div className="mt-7 flex flex-col sm:flex-row items-center gap-3">
             <Button href="#blurb" variant="primary" size="lg">
               Read the Blurb
-            </Button>
-            <Button href="#details" variant="outline" size="lg">
-              Book Details
             </Button>
           </div>
         </motion.div>
