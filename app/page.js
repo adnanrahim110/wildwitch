@@ -11,8 +11,8 @@ export default function HomePage() {
       <Hero />
       <Definition />
       <AuthorTeaser />
-      <BookTeaser />
       <Sample />
+      <BookTeaser />
       <CTA />
     </main>
   );

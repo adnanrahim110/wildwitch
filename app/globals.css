@@ -4,8 +4,27 @@
   --page-max: 1280px;
 }
 
+@font-face {
+  font-family: "comic sans";
+  src: url(/comicsans/bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "comic sans";
+  src: url(/comicsans/medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "comic sans";
+  src: url(/comicsans/regular.ttf);
+  font-weight: 400;
+}
+
 @theme {
   --default-font-family: Arial, Helvetica, sans-serif;
+  --font-comic-sans: "comic sans";
 }
 
 @layer base {

@@ -10,23 +10,25 @@ export default function Hero() {
       <div className="absolute inset-0 bg-[radial-gradient(120%_80%_at_50%_-20%,rgba(255,255,255,0.12),transparent_60%)]" />
       <div className="absolute -left-20 top-1/2 -translate-y-1/2 h-[42rem] w-[42rem] rounded-full blur-3xl opacity-10 bg-[#ff4444]" />
       <div className="bg-noise" />
-      <div className="container-max relative py-16 lg:py-28">
+      <div className="container-max relative flex items-center justify-center py-16 lg:pb-28 lg:pt-20">
         <motion.div
           initial={{ y: 24, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           viewport={{ once: true, margin: "-20% 0px -20% 0px" }}
           transition={{ duration: 0.55 }}
-          className="text-center"
+          className="text-center w-fit relative flex flex-col items-center"
         >
-          <h1
-            className="mt-4 text-balance font-extrabold tracking-tight drop-shadow"
-            style={{
-              fontFamily: "Arial, Helvetica, sans-serif",
-              fontSize: "clamp(2.4rem, 5vw, 4.8rem)",
-              lineHeight: 1.05,
-              color: "rgb(255 68 68)",
-            }}
-          >
+          <img
+            src="/images/hero-l.jpg"
+            className="absolute -top-10 -left-10 mix-blend-difference"
+            alt=""
+          />
+          <img
+            src="/images/hero-r.jpg"
+            className="absolute -top-12 -right-12 mix-blend-difference"
+            alt=""
+          />
+          <h1 className="mt-4 text-balance font-bold inline-block tracking-tight drop-shadow font-comic-sans! text-red-500 text-[clamp(2.6rem,5.5vw,6rem)]">
             Wild Witch
           </h1>
           <div className="relative mt-2 inline-block">
