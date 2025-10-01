@@ -52,10 +52,10 @@ export default function Navbar() {
 
   return (
     <header
-      className={`font-aria sticky top-0 z-50 transition-all duration-300 ${
+      className={`font-aria w-full top-0 z-50 transition-all duration-300 ${
         scrolled
-          ? "backdrop-blur bg-black/70 border-b border-white/10"
-          : "bg-transparent"
+          ? "fixed backdrop-blur bg-black/70 border-b border-white/10"
+          : "absolute bg-transparent"
       }`}
       aria-label="Primary"
     >

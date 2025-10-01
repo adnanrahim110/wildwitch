@@ -5,10 +5,8 @@ import {
   ArrowUpRight,
   BookText,
   Facebook,
-  HeartHandshake,
   Instagram,
   Twitter,
-  Youtube,
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -113,16 +111,6 @@ export default function Footer() {
                           className="text-white/85 group-hover:text-white"
                         />
                       </Link>
-                      <Link
-                        href="https://youtube.com"
-                        aria-label="YouTube"
-                        className="group inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/[0.05] hover:bg-white/[0.1] transition"
-                      >
-                        <Youtube
-                          size={18}
-                          className="text-white/85 group-hover:text-white"
-                        />
-                      </Link>
                     </div>
                   </div>
                 </div>
@@ -158,9 +146,6 @@ export default function Footer() {
                     Visit
                     <ArrowUpRight size={14} />
                   </Link>
-                  <div className="text-[11px] text-white/55 absolute -bottom-5 left-1/2 -translate-x-1/2 whitespace-nowrap">
-                    Logos and name are used with acknowledgment.*
-                  </div>
                 </div>
               </div>
             </div>
