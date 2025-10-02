@@ -19,7 +19,7 @@ export default function Hero() {
         />
       </div>
       <div className="bg-noise" />
-      <div className="container-max relative z-[1] flex items-center justify-center py-16 lg:py-40">
+      <div className="container-max relative z-[1] flex items-center justify-center py-28 lg:py-40">
         <motion.div
           initial={{ y: 24, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
@@ -29,12 +29,12 @@ export default function Hero() {
         >
           <img
             src="/images/hero-l.png"
-            className="absolute -top-10 w-52 -left-20 -z-[1]"
+            className="absolute -top-2 lg:-top-10 w-16 lg:w-52 left-5 lg:-left-20 xl:-left-32 2xl:-left-44 -z-[1]"
             alt=""
           />
           <img
             src="/images/hero-r.png"
-            className="absolute -top-12 w-52 -right-20 -z-[1]"
+            className="absolute -top-2 lg:-top-12 w-16 lg:w-52 right-5 lg:-right-20 xl:-right-32 2xl:-right-44 -z-[1]"
             alt=""
           />
           <h1 className="mt-4 text-balance font-bold inline-block tracking-tight leading-tight drop-shadow font-comic-sans! text-red-500 text-[clamp(2.6rem,10vw,10rem)]">

@@ -11,13 +11,12 @@ export default function BookHero() {
       <div className="absolute inset-0 bg-[radial-gradient(110%_70%_at_20%_-10%,rgba(255,255,255,0.12),transparent_60%)]" />
       <div className="absolute right-[-12%] top-[10%] h-[36rem] w-[36rem] rounded-full bg-[#ff4444]/15 blur-3xl" />
       <div className="bg-noise" />
-      <div className="container-max relative grid grid-cols-1 lg:grid-cols-2 gap-10 items-center py-16 lg:py-24">
+      <div className="container-max relative grid grid-cols-1 lg:grid-cols-2 gap-10 items-center py-32 lg:py-24">
         <motion.div
           initial={{ opacity: 0, x: -18 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="order-2 lg:order-1"
         >
           <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs text-white/80">
             <Sparkles size={14} />
@@ -51,7 +50,6 @@ export default function BookHero() {
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.06 }}
-          className="order-1 lg:order-2"
         >
           <div className="relative mx-auto w-[min(92%,420px)]">
             <div className="absolute -inset-3 rounded-[26px] bg-gradient-to-br from-white/20 via-white/8 to-transparent blur-xl opacity-30" />

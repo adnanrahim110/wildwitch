@@ -64,23 +64,23 @@ export default function Definition() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-10% 0px -10% 0px" }}
               transition={{ duration: 0.45, delay: 0.05 }}
-              className="mx-auto mt-4 grid max-w-5xl grid-cols-1 gap-2 sm:grid-cols-3"
+              className="mx-auto mt-4 grid max-w-5xl gap-2 grid-cols-3"
             >
               <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-3 backdrop-blur">
-                <p className="text-sm text-white/80">Premise</p>
-                <p className="mt-1 text-xs text-white/60">
+                <p className="text-xs lg:text-sm text-white/80">Premise</p>
+                <p className="mt-1 text-[10px] lg:text-xs text-white/60">
                   Home to pixies & elves
                 </p>
               </div>
               <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-3 backdrop-blur">
-                <p className="text-sm text-white/80">Magic</p>
-                <p className="mt-1 text-xs text-white/60">
+                <p className="text-xs lg:text-sm text-white/80">Magic</p>
+                <p className="mt-1 text-[10px] lg:text-xs text-white/60">
                   A bright, adventurous fantasy
                 </p>
               </div>
               <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-3 backdrop-blur">
-                <p className="text-sm text-white/80">Who it’s for</p>
-                <p className="mt-1 text-xs text-white/60">
+                <p className="text-xs lg:text-sm text-white/80">Who it’s for</p>
+                <p className="mt-1 text-[10px] lg:text-xs text-white/60">
                   Magic & adventure lover
                 </p>
               </div>

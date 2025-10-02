@@ -11,7 +11,7 @@ export default function HeroBanner() {
       <div className="absolute inset-0 bg-[radial-gradient(120%_80%_at_50%_-20%,rgba(255,255,255,0.12),transparent_60%)]" />
       <div className="absolute left-[-15%] top-[10%] h-[32rem] w-[32rem] rounded-full bg-[#ff4444]/15 blur-3xl" />
       <div className="bg-noise" />
-      <div className="container-max relative grid grid-cols-1 lg:grid-cols-2 gap-10 items-center py-16 lg:py-24">
+      <div className="container-max relative grid grid-cols-1 lg:grid-cols-2 gap-10 items-center py-32 lg:py-24">
         <motion.div
           initial={{ y: 22, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
@@ -22,7 +22,7 @@ export default function HeroBanner() {
             className="text-balance font-extrabold tracking-tight"
             style={{
               fontFamily: "Arial, Helvetica, sans-serif",
-              fontSize: "clamp(2rem,4.5vw,3.2rem)",
+              fontSize: "clamp(1.7rem,4.5vw,3.2rem)",
               lineHeight: 1.06,
             }}
           >

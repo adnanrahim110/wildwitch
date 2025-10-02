@@ -56,12 +56,12 @@ export default function Sample() {
           </div>
         </motion.div>
 
-        <motion.aside
+        <motion.div
           initial={{ opacity: 0, y: 18 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.06 }}
-          className="lg:col-span-5 h-full"
+          className="lg:col-span-5 h-full min-h-[550px]"
         >
           <div className="p-[1px] rounded-3xl bg-gradient-to-br from-white/30 via-white/10 to-transparent h-full">
             <div className="rounded-3xl border border-white/10 bg-black/60 backdrop-blur p-6 md:p-8 h-full overflow-hidden">
@@ -73,7 +73,7 @@ export default function Sample() {
               />
             </div>
           </div>
-        </motion.aside>
+        </motion.div>
       </div>
       <div className="section-edge" />
     </section>

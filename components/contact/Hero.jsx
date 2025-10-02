@@ -9,7 +9,7 @@ export default function ContactHero() {
       <div className="absolute inset-0 bg-[radial-gradient(110%_70%_at_20%_-10%,rgba(255,255,255,0.12),transparent_60%)]" />
       <div className="absolute right-[-12%] top-[10%] h-[30rem] w-[30rem] rounded-full bg-[#ff4444]/15 blur-3xl" />
       <div className="bg-noise" />
-      <div className="container-max relative py-16 lg:py-24">
+      <div className="container-max relative py-32 lg:py-24">
         <motion.div
           initial={{ opacity: 0, y: 14 }}
           whileInView={{ opacity: 1, y: 0 }}
