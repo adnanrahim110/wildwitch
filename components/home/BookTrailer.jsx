@@ -47,8 +47,8 @@ export default function BookTrailer() {
                   playsInline
                   preload="metadata"
                 >
-                  <source src="/videos/book-trailer.mp4" type="video/mp4" />
-                  <source src="/videos/book-tailer.mp4" type="video/mp4" />
+                  <source src="/videos/book-trailer.webm" type="video/webm" />
+                  <source src="/videos/book-trailer.webm" type="video/webm" />
                   Your browser does not support the video tag.
                 </video>
                 {!isPlaying && (
