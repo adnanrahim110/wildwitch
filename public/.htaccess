@@ -1,0 +1,17 @@
+RewriteEngine On
+
+# Serve existing files/directories as-is (no rewrites)
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule . - [L]
+
+# Add trailing slash for clean URLs on non-file requests
+RewriteCond %{REQUEST_URI} !\.[a-zA-Z0-9]+$
+RewriteCond %{REQUEST_URI} !/$
+RewriteRule ^(.+)$ $1/ [L,R=301]
+
+# Map clean URLs to static HTML
+RewriteRule ^(.+)/$ $1.html [NC,L]
+
+# Custom 404
+ErrorDocument 404 /404.html

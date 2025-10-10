@@ -1,8 +1,5 @@
 "use client";
-
-import Button from "@/components/ui/Button";
 import { motion } from "framer-motion";
-import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -10,7 +7,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-[radial-gradient(120%_80%_at_50%_-20%,rgba(255,255,255,0.12),transparent_60%)]" />
       <div className="absolute inset-0 -z-[100]">
         <video
-          src="/videos/hero-cover.mp4"
+          src="/videos/hero-cover.webm"
           muted
           autoPlay
           loop

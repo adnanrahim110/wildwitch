@@ -37,7 +37,7 @@ export default function Definition() {
               emphasizes inherent magical abilities and a free-spirited
               expression of spirituality.
             </p>
-            <p className="mt-3 text-white text-sm md:text-base font-semibold italic">
+            <p className="mt-3 text-white text-sm md:text-base font-semibold text-center">
               However my fictional version of a Wild Witch may be very similar
               but is much more magical!
             </p>

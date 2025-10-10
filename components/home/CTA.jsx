@@ -65,14 +65,6 @@ export default function CTA() {
                       </p>
                     </div>
                   </div>
-                  <div className="mt-7 flex flex-col sm:flex-row items-center gap-3">
-                    <Button href="/about-book" variant="primary" size="lg">
-                      Buy Now
-                    </Button>
-                    <Button href="/contact" variant="outline" size="lg">
-                      Contact
-                    </Button>
-                  </div>
                 </div>
               </div>
             </div>
