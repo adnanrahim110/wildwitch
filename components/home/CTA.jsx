@@ -1,8 +1,7 @@
 "use client";
 
-import Button from "@/components/ui/Button";
 import { motion } from "framer-motion";
-import { BookOpen, Compass, Feather, Leaf, Sparkles } from "lucide-react";
+import { BookOpen, Compass, Leaf } from "lucide-react";
 
 export default function CTA() {
   return (
