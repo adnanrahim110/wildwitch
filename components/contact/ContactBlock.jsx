@@ -84,10 +84,10 @@ export default function ContactBlock() {
                   <div>
                     <div className="text-sm text-white/85">Email</div>
                     <a
-                      href="mailto:hello@example.com"
+                      href="mailto:MJDooley001@hotmail.com"
                       className="text-xs text-white/70 hover:text-white transition"
                     >
-                      hello@example.com
+                      MJDooley001@hotmail.com
                     </a>
                   </div>
                 </div>
@@ -116,7 +116,7 @@ export default function ContactBlock() {
               <div className="mt-8 h-px w-full bg-gradient-to-r from-transparent via-white/15 to-transparent" />
 
               <div className="mt-8 rounded-2xl border border-white/10 bg-white/[0.04] p-4 text-xs text-white/75">
-                Special thanks to EBook Visionary Publishing for support and
+                Special thanks to eBook Visionary Publishing for support and
                 collaboration.
               </div>
             </div>

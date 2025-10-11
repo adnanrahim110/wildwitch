@@ -61,8 +61,16 @@ export default function Navbar() {
     >
       <div className="container-max relative h-16 flex items-center justify-between">
         <Link href="/" className="group inline-flex items-center gap-2">
-          <div className="h-8 w-8 rounded-full bg-white/10 border border-white/15 group-hover:bg-white/15 transition" />
-          <span className="text-lg tracking-wide">Wild Witch</span>
+          <div className="size-14 rounded-full bg-white/10 border border-white/15 group-hover:bg-white/15 transition">
+            <img
+              src="/images/main-char.jpg"
+              className="size-full object-cover rounded-full"
+              alt=""
+            />
+          </div>
+          <span className="text-2xl text-red-500 tracking-wide font-comic-sans font-bold">
+            Wild Witch
+          </span>
         </Link>
 
         <nav className="relative hidden md:flex items-center gap-2">

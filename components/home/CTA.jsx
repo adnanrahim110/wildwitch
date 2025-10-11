@@ -33,7 +33,7 @@ export default function CTA() {
                   </h3>
 
                   <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1fr_0.8fr_1.1fr] gap-3">
-                    <div className="rounded-2xl border border-white/10 bg-white/[0.04] p-4">
+                    <div className="rounded-2xl text-center border border-white/10 bg-white/[0.04] p-4">
                       <div className="flex items-center gap-2 text-white/85 text-sm">
                         <Leaf size={16} />
                         It’s Pure, Shareable Magic
@@ -43,7 +43,7 @@ export default function CTA() {
                         for young readers and the young at heart.
                       </p>
                     </div>
-                    <div className="rounded-2xl border border-white/10 bg-white/[0.04] p-4">
+                    <div className="rounded-2xl text-center border border-white/10 bg-white/[0.04] p-4">
                       <div className="flex items-center gap-2 text-white/85 text-sm">
                         <BookOpen size={16} />
                         It Champions & Kindness
@@ -53,7 +53,7 @@ export default function CTA() {
                         real power.
                       </p>
                     </div>
-                    <div className="rounded-2xl border border-white/10 bg-white/[0.04] p-4">
+                    <div className="rounded-2xl text-center border border-white/10 bg-white/[0.04] p-4">
                       <div className="flex items-center gap-2 text-white/85 text-sm">
                         <Compass size={16} />
                         It Builds A World You’ll Want To Return To

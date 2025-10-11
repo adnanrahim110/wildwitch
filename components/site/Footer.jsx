@@ -28,10 +28,10 @@ export default function Footer() {
                   <div className="text-xs text-white/65">
                     Adventure Fantasy Tales by Michael J. Dooley
                   </div>
-                  <div className="mt-3 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.06] px-3 py-1 text-[11px] text-white/80">
+                  {/* <div className="mt-3 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.06] px-3 py-1 text-[11px] text-white/80">
                     <BookText size={14} />
                     {ISBN}
-                  </div>
+                  </div> */}
                 </div>
               </div>
 
@@ -152,19 +152,10 @@ export default function Footer() {
 
             <div className="px-8 md:px-12 pb-8">
               <div className="h-px w-full bg-gradient-to-r from-transparent via-white/15 to-transparent" />
-              <div className="mt-5 flex flex-col-reverse md:flex-row items-center justify-between gap-3">
+              <div className="mt-5 flex flex-col-reverse md:flex-row items-center justify-center text-center gap-3">
                 <p className="text-xs text-white/60">
                   © {year} Michael J. Dooley. All rights reserved.
                 </p>
-                <div className="flex items-center gap-2">
-                  <Link
-                    href="/"
-                    className="inline-flex items-center gap-1.5 rounded-full bg-white text-black px-4 py-2 text-xs font-medium hover:opacity-90 transition"
-                  >
-                    Buy Now
-                    <ArrowUpRight size={14} />
-                  </Link>
-                </div>
               </div>
             </div>
           </div>

@@ -42,18 +42,20 @@ export default function Inside() {
             hidden: {},
             show: { transition: { staggerChildren: 0.06 } },
           }}
-          className="mx-auto mt-10 grid max-w-6xl grid-cols-1 gap-4 sm:grid-cols-3"
+          className="mx-auto mt-10 grid max-w-7xl grid-cols-1 gap-3 sm:grid-cols-3"
         >
           <motion.div
             variants={{
               hidden: { opacity: 0, y: 12 },
               show: { opacity: 1, y: 0 },
             }}
-            className="rounded-3xl border border-white/10 bg-gradient-to-br from-white/[0.06] to-white/[0.02] p-6 backdrop-blur"
+            className="rounded-3xl text-center border border-white/10 bg-gradient-to-br from-white/[0.06] to-white/[0.02] p-6 backdrop-blur"
           >
-            <div className="flex items-center gap-2 text-white">
+            <div className="flex items-center gap-2 justify-center text-white">
               <Leaf size={18} />
-              <div className="font-semibold">It’s Pure, Shareable Magic</div>
+              <div className="font-semibold text-[15px]">
+                It’s Pure, Shareable Magic
+              </div>
             </div>
             <p className="mt-2 text-xs text-white/70">
               Imagination-rich wonder without grim darkness, perfect for young
@@ -66,11 +68,13 @@ export default function Inside() {
               hidden: { opacity: 0, y: 12 },
               show: { opacity: 1, y: 0 },
             }}
-            className="rounded-3xl border border-white/10 bg-gradient-to-br from-white/[0.06] to-white/[0.02] p-6 backdrop-blur"
+            className="rounded-3xl text-center border border-white/10 bg-gradient-to-br from-white/[0.06] to-white/[0.02] p-6 backdrop-blur"
           >
-            <div className="flex items-center gap-2 text-white">
+            <div className="flex items-center gap-2 justify-center text-white">
               <Users size={18} />
-              <div className="font-semibold">It Champions & Kindness</div>
+              <div className="font-semibold text-[15px]">
+                It Champions & Kindness
+              </div>
             </div>
             <p className="mt-2 text-xs text-white/70">
               Helping kids see fear as a doorway and friendship as real power.
@@ -82,11 +86,11 @@ export default function Inside() {
               hidden: { opacity: 0, y: 12 },
               show: { opacity: 1, y: 0 },
             }}
-            className="rounded-3xl border border-white/10 bg-gradient-to-br from-white/[0.06] to-white/[0.02] p-6 backdrop-blur"
+            className="rounded-3xl text-center border border-white/10 bg-gradient-to-br from-white/[0.06] to-white/[0.02] p-6 backdrop-blur"
           >
-            <div className="flex items-center gap-2 text-white">
+            <div className="flex items-center gap-2 justify-center text-white">
               <Compass size={18} />
-              <div className="font-semibold">
+              <div className="font-semibold text-[15px]">
                 It Builds A World You’ll Want To Return To
               </div>
             </div>

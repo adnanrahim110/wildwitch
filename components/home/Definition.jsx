@@ -13,7 +13,7 @@ export default function Definition() {
         <div className="grid lg:grid-cols-2 gap-10">
           <div className="">
             <h2
-              className="text-balance font-extrabold tracking-tight"
+              className="text-balance font-extrabold tracking-tight text-red-500"
               style={{
                 fontFamily: "Arial, Helvetica, sans-serif",
                 fontSize: "clamp(1.6rem, 3.2vw, 2.6rem)",
