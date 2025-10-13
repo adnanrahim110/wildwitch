@@ -19,7 +19,7 @@ export default function Blurb() {
           className="lg:col-span-7"
         >
           <h2
-            className="mt-4 font-extrabold tracking-tight"
+            className="mt-4 font-extrabold tracking-tight text-red-500"
             style={{
               fontFamily: "Arial, Helvetica, sans-serif",
               fontSize: "clamp(1.6rem,3vw,2.4rem)",

@@ -23,7 +23,7 @@ export default function BookHero() {
             Wild Witch
           </div>
           <h1
-            className="mt-4 font-extrabold tracking-tight"
+            className="mt-4 font-extrabold tracking-tight text-red-500"
             style={{
               fontFamily: "Arial, Helvetica, sans-serif",
               fontSize: "clamp(1.9rem,3.4vw,2.8rem)",

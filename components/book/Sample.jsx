@@ -21,7 +21,7 @@ export default function Sample() {
         >
           <div className="rounded-3xl border border-white/10 bg-gradient-to-br from-white/[0.06] to-white/[0.02] p-6 md:p-8 backdrop-blur shadow-[0_30px_100px_rgba(0,0,0,0.45)]">
             <h2
-              className="mt-4 font-extrabold tracking-tight"
+              className="mt-4 font-extrabold tracking-tight text-red-500"
               style={{
                 fontFamily: "Arial, Helvetica, sans-serif",
                 fontSize: "clamp(1.2rem,2.6vw,2.1rem)",

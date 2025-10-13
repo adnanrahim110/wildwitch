@@ -20,7 +20,7 @@ export default function Inside() {
           className="mx-auto max-w-3xl text-center"
         >
           <h2
-            className="mt-4 font-extrabold tracking-tight"
+            className="mt-4 font-extrabold tracking-tight text-red-500"
             style={{
               fontFamily: "Arial, Helvetica, sans-serif",
               fontSize: "clamp(1.7rem,3vw,2.5rem)",

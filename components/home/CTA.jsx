@@ -22,7 +22,7 @@ export default function CTA() {
               <div className="grid grid-cols-1 gap-0">
                 <div className="relative lg:col-span-3 p-8 md:p-12">
                   <h3
-                    className="mt-4 text-balance font-extrabold tracking-tight"
+                    className="mt-4 text-balance font-extrabold tracking-tight text-red-500 text-center"
                     style={{
                       fontFamily: "Arial, Helvetica, sans-serif",
                       fontSize: "clamp(1.7rem,2.8vw,2.4rem)",
@@ -34,7 +34,7 @@ export default function CTA() {
 
                   <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1fr_0.8fr_1.1fr] gap-3">
                     <div className="rounded-2xl text-center border border-white/10 bg-white/[0.04] p-4">
-                      <div className="flex items-center gap-2 text-white/85 text-sm">
+                      <div className="flex items-center justify-center gap-2 text-white/85 text-sm">
                         <Leaf size={16} />
                         It’s Pure, Shareable Magic
                       </div>
@@ -44,7 +44,7 @@ export default function CTA() {
                       </p>
                     </div>
                     <div className="rounded-2xl text-center border border-white/10 bg-white/[0.04] p-4">
-                      <div className="flex items-center gap-2 text-white/85 text-sm">
+                      <div className="flex items-center justify-center gap-2 text-white/85 text-sm">
                         <BookOpen size={16} />
                         It Champions & Kindness
                       </div>
@@ -54,7 +54,7 @@ export default function CTA() {
                       </p>
                     </div>
                     <div className="rounded-2xl text-center border border-white/10 bg-white/[0.04] p-4">
-                      <div className="flex items-center gap-2 text-white/85 text-sm">
+                      <div className="flex items-center justify-center gap-2 text-white/85 text-sm">
                         <Compass size={16} />
                         It Builds A World You’ll Want To Return To
                       </div>

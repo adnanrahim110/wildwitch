@@ -32,7 +32,7 @@ export default function AuthorTeaser() {
           className="text-center md:text-left"
         >
           <h2
-            className="font-extrabold tracking-tight"
+            className="font-extrabold tracking-tight text-red-500"
             style={{
               fontFamily: "Arial, Helvetica, sans-serif",
               fontSize: "clamp(1.6rem, 3vw, 2.4rem)",

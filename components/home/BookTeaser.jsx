@@ -24,7 +24,7 @@ export default function BookTeaser() {
             About the Book
           </div>
           <h2
-            className="mt-4 font-extrabold tracking-tight"
+            className="mt-4 font-extrabold tracking-tight text-red-500"
             style={{
               fontFamily: "Arial, Helvetica, sans-serif",
               fontSize: "clamp(1.8rem,3vw,2.6rem)",
