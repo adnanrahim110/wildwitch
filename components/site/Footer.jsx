@@ -22,17 +22,23 @@ export default function Footer() {
           <div className="rounded-3xl bg-black/65 backdrop-blur-xl border border-white/10">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 p-8 md:p-12">
               <div className="lg:col-span-4 flex items-start gap-3">
-                <div className="h-10 w-10 rounded-full bg-white/10 border border-white/15" />
-                <div>
-                  <div className="text-base text-white/90">Wild Witch</div>
-                  <div className="text-xs text-white/65">
-                    Adventure Fantasy Tales by Michael J. Dooley
+                <Link href="/" className="group inline-flex items-center gap-2">
+                  <div className="size-14 rounded-full bg-white/10 border border-white/15 group-hover:bg-white/15 transition">
+                    <img
+                      src="/images/main-char.jpg"
+                      className="size-full object-cover rounded-full"
+                      alt=""
+                    />
                   </div>
-                  {/* <div className="mt-3 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.06] px-3 py-1 text-[11px] text-white/80">
-                    <BookText size={14} />
-                    {ISBN}
-                  </div> */}
-                </div>
+                  <div className="flex flex-col">
+                    <span className="text-2xl text-red-500 tracking-wide font-comic-sans font-bold">
+                      Wild Witch
+                    </span>
+                    <div className="text-xs text-white/65">
+                      Adventure Fantasy Tales by Michael J. Dooley
+                    </div>
+                  </div>
+                </Link>
               </div>
 
               <div className="lg:col-span-5">

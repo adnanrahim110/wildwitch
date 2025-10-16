@@ -189,9 +189,6 @@ export default function ContactBlock() {
 
               <div className="mt-5 flex flex-col sm:flex-row items-center gap-3">
                 <Button size="md">Send Message</Button>
-                <Button href="/about-book" variant="outline" size="md">
-                  About the Book
-                </Button>
               </div>
 
               {status.ok && (
