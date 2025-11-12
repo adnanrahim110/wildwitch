@@ -51,7 +51,12 @@ export default function BookTeaser() {
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row items-center gap-3">
-            <Button href="/about-book" variant="primary" size="lg">
+            <Button
+              href="https://amazon.com/dp/B0FZC88L2F"
+              target="_blank"
+              variant="primary"
+              size="lg"
+            >
               Buy Now on Amazon
             </Button>
           </div>

@@ -39,7 +39,12 @@ export default function BookHero() {
             Wishes grow on trees here, but every wish requires a true heart.
           </p>
           <div className="mt-7 flex flex-col sm:flex-row items-center gap-3">
-            <Button href="#" variant="primary" size="lg">
+            <Button
+              href="https://amazon.com/dp/B0FZC88L2F"
+              target="_blank"
+              variant="primary"
+              size="lg"
+            >
               Buy Now
             </Button>
           </div>

@@ -105,7 +105,12 @@ export default function Navbar() {
               );
             })}
             <li className="ml-2">
-              <Button href="/" variant="primary" size="md">
+              <Button
+                href="https://amazon.com/dp/B0FZC88L2F"
+                target="_blank"
+                variant="primary"
+                size="md"
+              >
                 Buy Now
               </Button>
             </li>
@@ -187,12 +192,13 @@ export default function Navbar() {
                   }}
                 >
                   <Button
-                    href="/about-book"
+                    href="https://amazon.com/dp/B0FZC88L2F"
+                    target="_blank"
                     variant="primary"
                     size="md"
                     className="w-full rounded-xl"
                   >
-                    Start Reading
+                    Buy Now
                   </Button>
                 </motion.li>
               </motion.ul>
