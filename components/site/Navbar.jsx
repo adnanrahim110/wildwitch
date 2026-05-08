@@ -10,7 +10,7 @@ import { useEffect, useRef, useState } from "react";
 const links = [
   { href: "/", label: "Home" },
   { href: "/about-author", label: "About the Author" },
-  { href: "/about-book", label: "About the Book" },
+  { href: "/books", label: "Books" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -52,10 +52,10 @@ export default function Navbar() {
 
   return (
     <header
-      className={`font-aria w-full top-0 z-50 transition-all duration-300 ${
+      className={`font-aria w-full top-0 z-50 border-b transition-all duration-300 ${
         scrolled
-          ? "fixed backdrop-blur bg-black/70 border-b border-white/10"
-          : "absolute bg-transparent"
+          ? "fixed backdrop-blur bg-black/70 border-white/10"
+          : "absolute bg-transparent border-transparent"
       }`}
       aria-label="Primary"
     >

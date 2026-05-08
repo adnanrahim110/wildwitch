@@ -5,7 +5,22 @@ import Button from "@/components/ui/Button";
 import { motion } from "framer-motion";
 import { Compass, Leaf, Sparkles, Users } from "lucide-react";
 
-export default function Inside() {
+const getIcon = (iconName) => {
+  switch (iconName) {
+    case "Leaf":
+      return <Leaf size={18} />;
+    case "Users":
+      return <Users size={18} />;
+    case "Sparkles":
+      return <Sparkles size={18} />;
+    case "Compass":
+      return <Compass size={18} />;
+    default:
+      return <Sparkles size={18} />;
+  }
+};
+
+export default function Inside({ book }) {
   return (
     <section id="inside" className="font-aria relative py-16 md:py-24">
       <div className="absolute inset-0 bg-[radial-gradient(100%_70%_at_100%_0%,rgba(255,255,255,0.08),transparent_60%)]" />
@@ -26,11 +41,10 @@ export default function Inside() {
               fontSize: "clamp(1.7rem,3vw,2.5rem)",
             }}
           >
-            Three Reasons to Grab This Book Today
+            {book.inside.heading}
           </h2>
           <p className="mt-3 text-white/75 text-sm md:text-base">
-            Power from the living world, friendships that hold, and choices that
-            test courage.
+            {book.inside.subheading}
           </p>
         </motion.div>
 
@@ -44,61 +58,26 @@ export default function Inside() {
           }}
           className="mx-auto mt-10 grid max-w-7xl grid-cols-1 gap-3 sm:grid-cols-3"
         >
-          <motion.div
-            variants={{
-              hidden: { opacity: 0, y: 12 },
-              show: { opacity: 1, y: 0 },
-            }}
-            className="rounded-3xl text-center border border-white/10 bg-gradient-to-br from-white/[0.06] to-white/[0.02] p-6 backdrop-blur"
-          >
-            <div className="flex items-center gap-2 justify-center text-white">
-              <Leaf size={18} />
-              <div className="font-semibold text-[15px]">
-                It’s Pure, Shareable Magic
+          {book.inside.reasons.map((reason, index) => (
+            <motion.div
+              key={index}
+              variants={{
+                hidden: { opacity: 0, y: 12 },
+                show: { opacity: 1, y: 0 },
+              }}
+              className="rounded-3xl text-center border border-white/10 bg-gradient-to-br from-white/[0.06] to-white/[0.02] p-6 backdrop-blur flex flex-col items-center"
+            >
+              <div className="flex items-center gap-2 justify-center text-white">
+                {getIcon(reason.icon)}
+                <div className="font-semibold text-[15px]">
+                  {reason.title}
+                </div>
               </div>
-            </div>
-            <p className="mt-2 text-xs text-white/70">
-              Imagination-rich wonder without grim darkness, perfect for young
-              readers and the young at heart.
-            </p>
-          </motion.div>
-
-          <motion.div
-            variants={{
-              hidden: { opacity: 0, y: 12 },
-              show: { opacity: 1, y: 0 },
-            }}
-            className="rounded-3xl text-center border border-white/10 bg-gradient-to-br from-white/[0.06] to-white/[0.02] p-6 backdrop-blur"
-          >
-            <div className="flex items-center gap-2 justify-center text-white">
-              <Users size={18} />
-              <div className="font-semibold text-[15px]">
-                It Champions & Kindness
-              </div>
-            </div>
-            <p className="mt-2 text-xs text-white/70">
-              Helping kids see fear as a doorway and friendship as real power.
-            </p>
-          </motion.div>
-
-          <motion.div
-            variants={{
-              hidden: { opacity: 0, y: 12 },
-              show: { opacity: 1, y: 0 },
-            }}
-            className="rounded-3xl text-center border border-white/10 bg-gradient-to-br from-white/[0.06] to-white/[0.02] p-6 backdrop-blur"
-          >
-            <div className="flex items-center gap-2 justify-center text-white">
-              <Compass size={18} />
-              <div className="font-semibold text-[15px]">
-                It Builds A World You’ll Want To Return To
-              </div>
-            </div>
-            <p className="mt-2 text-xs text-white/70">
-              With unforgettable guides, Sunflower, Lilly, Sage, and Filla,
-              beckoning you back down the Mystical Path.
-            </p>
-          </motion.div>
+              <p className="mt-2 text-xs text-white/70">
+                {reason.description}
+              </p>
+            </motion.div>
+          ))}
         </motion.div>
       </div>
       <div className="section-edge" />

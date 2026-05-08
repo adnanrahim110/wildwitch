@@ -42,7 +42,7 @@ export default function Definition() {
               but is much more magical!
             </p>
             <div className="mt-2 flex items-center gap-3">
-              <Button href="/about-book" variant="primary" size="md">
+              <Button href="/books/wild-witch" variant="primary" size="md">
                 Read About the Book
               </Button>
             </div>

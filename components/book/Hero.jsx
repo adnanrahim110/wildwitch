@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { BookOpen, Sparkles } from "lucide-react";
 import Image from "next/image";
 
-export default function BookHero() {
+export default function BookHero({ book }) {
   return (
     <section className="font-aria relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(110%_70%_at_20%_-10%,rgba(255,255,255,0.12),transparent_60%)]" />
@@ -20,7 +20,7 @@ export default function BookHero() {
         >
           <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs text-white/80">
             <Sparkles size={14} />
-            Wild Witch
+            {book.title}
           </div>
           <h1
             className="mt-4 font-extrabold tracking-tight text-red-500"
@@ -30,17 +30,14 @@ export default function BookHero() {
               lineHeight: 1.1,
             }}
           >
-            When The Forest Whispers Your Name, Do You Answer?
+            {book.subtitle}
           </h1>
           <p className="mt-3 text-white/80 text-sm md:text-base max-w-prose">
-            Two girls, one country girl with a gift for animals, one cheerleader
-            captain who feared large animals, follow a hidden trail into a realm
-            of pixies, sprites, fairies and a unicorn who chooses his riders.
-            Wishes grow on trees here, but every wish requires a true heart.
+            {book.description}
           </p>
           <div className="mt-7 flex flex-col sm:flex-row items-center gap-3">
             <Button
-              href="https://amazon.com/dp/B0FZC88L2F"
+              href={book.amazonLink}
               target="_blank"
               variant="primary"
               size="lg"
@@ -65,8 +62,8 @@ export default function BookHero() {
             >
               <div className="relative aspect-[3/4] w-full overflow-hidden">
                 <Image
-                  src="/images/book-cover.png"
-                  alt="Wild Witch cover"
+                  src={book.coverImage}
+                  alt={`${book.title} cover`}
                   fill
                   sizes="(max-width: 1024px) 80vw, 420px"
                   className="object-cover"

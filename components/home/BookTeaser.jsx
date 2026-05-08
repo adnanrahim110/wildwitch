@@ -77,7 +77,7 @@ export default function BookTeaser() {
             >
               <div className="relative aspect-[17/25] w-full overflow-hidden rounded-[14px] border border-white/10">
                 <Image
-                  src="/images/front.jpg"
+                  src="/images/books/b1-f.jpg"
                   alt="Wild Witch cover"
                   fill
                   sizes="(max-width: 1024px) 80vw, 420px"

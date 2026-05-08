@@ -66,10 +66,10 @@ export default function Footer() {
                       </li>
                       <li>
                         <Link
-                          href="/about-book"
+                          href="/books"
                           className="text-white/75 hover:text-white transition"
                         >
-                          About the Book
+                          Books
                         </Link>
                       </li>
                       <li>

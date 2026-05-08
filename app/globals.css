@@ -65,3 +65,19 @@
     pointer-events: none;
   }
 }
+
+.book-trailer-swiper .swiper-button-next,
+.book-trailer-swiper .swiper-button-prev {
+  color: #ff4444 !important;
+  transform: scale(0.7);
+}
+
+.book-trailer-swiper .swiper-pagination-bullet {
+  background: white !important;
+  opacity: 0.4 !important;
+}
+
+.book-trailer-swiper .swiper-pagination-bullet-active {
+  background: #ff4444 !important;
+  opacity: 1 !important;
+}

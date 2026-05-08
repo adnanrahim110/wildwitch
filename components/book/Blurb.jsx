@@ -2,9 +2,24 @@
 
 import Button from "@/components/ui/Button";
 import { motion } from "framer-motion";
-import { Leaf, Sparkles, Users } from "lucide-react";
+import { Leaf, Sparkles, Users, Compass } from "lucide-react";
 
-export default function Blurb() {
+const getIcon = (iconName) => {
+  switch (iconName) {
+    case "Leaf":
+      return <Leaf size={12} />;
+    case "Users":
+      return <Users size={12} />;
+    case "Sparkles":
+      return <Sparkles size={12} />;
+    case "Compass":
+      return <Compass size={12} />;
+    default:
+      return <Sparkles size={12} />;
+  }
+};
+
+export default function Blurb({ book }) {
   return (
     <section id="blurb" className="font-aria relative py-16 md:py-24">
       <div className="absolute inset-0 bg-[radial-gradient(100%_70%_at_0%_0%,rgba(255,255,255,0.08),transparent_60%)]" />
@@ -25,23 +40,10 @@ export default function Blurb() {
               fontSize: "clamp(1.6rem,3vw,2.4rem)",
             }}
           >
-            The Summer the Forest Spoke Back
+            {book.blurb.heading}
           </h2>
           <div className="mt-4 space-y-5 text-white/80 text-sm md:text-base leading-relaxed">
-            <p>
-              A sunlit paddock, a skittish heart, and a door in the woods no one
-              else can see. Willow, the ranch-raised “Cowgirl,” and Cally, the
-              fearless captain who secretly dreads horses, step onto the
-              Mystical Path and into a land where time lags, pixies gossip in
-              thistles, and a unicorn named Filla decides who is worthy. Why
-              does the Wishing Tree weigh intentions before it grants them? What
-              truth is tucked inside the old family book that points to a Wild
-              Witch legacy? Guided by Sunflower the pixie, Lilly the fairy, and
-              Sage the forest sprite, the girls learn that kindness has teeth,
-              courage has a pulse, and friendship is the one spell that never
-              misfires. By summer’s end, they must choose what to protect: the
-              magic they found, or the world they left behind.
-            </p>
+            <p>{book.blurb.paragraph}</p>
           </div>
         </motion.div>
 
@@ -58,39 +60,29 @@ export default function Blurb() {
                 Promise to readers
               </div>
               <ul className="space-y-3 text-sm text-white/85">
-                <li className="flex items-start gap-2">
-                  <span className="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-white/10 border border-white/15">
-                    <Leaf size={12} />
-                  </span>
-                  Nature isn’t backdrop; it’s a speaking character.
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-white/10 border border-white/15">
-                    <Users size={12} />
-                  </span>
-                  Wonder without the clichés: fresh creatures, fresh rules.
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="mt-1 inline-flex h-6 w-6 items-center justify-center rounded-full bg-white/10 border border-white/15">
-                    <Sparkles size={12} />
-                  </span>
-                  Friendship arcs that heal without getting preachy.
-                </li>
+                {book.blurb.promises.map((promise, index) => (
+                  <li key={index} className="flex items-start gap-2">
+                    <span className="mt-1 inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-white/10 border border-white/15">
+                      {getIcon(promise.icon)}
+                    </span>
+                    {promise.text}
+                  </li>
+                ))}
               </ul>
               <div className="mt-6 h-px w-full bg-gradient-to-r from-transparent via-white/15 to-transparent" />
               <div className="mt-4 grid grid-cols-3 gap-3 text-center">
                 <div className="rounded-xl border border-white/10 bg-white/[0.04] px-3 py-2">
-                  <div className="text-lg font-semibold text-white">13+</div>
+                  <div className="text-lg font-semibold text-white">{book.blurb.metadata.ageRange}</div>
                   <div className="text-[10px] text-white/60">Age range</div>
                 </div>
                 <div className="rounded-xl border border-white/10 bg-white/[0.04] px-3 py-2">
-                  <div className="text-lg font-semibold text-white">
-                    Fantasy
+                  <div className="text-lg font-semibold text-white truncate px-1">
+                    {book.blurb.metadata.genre}
                   </div>
                   <div className="text-[10px] text-white/60">Genre</div>
                 </div>
                 <div className="rounded-xl border border-white/10 bg-white/[0.04] px-3 py-2">
-                  <div className="text-lg font-semibold text-white">Magic</div>
+                  <div className="text-lg font-semibold text-white truncate px-1">{book.blurb.metadata.theme}</div>
                   <div className="text-[10px] text-white/60">Theme</div>
                 </div>
               </div>

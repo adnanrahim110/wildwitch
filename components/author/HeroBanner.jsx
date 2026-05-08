@@ -36,8 +36,8 @@ export default function HeroBanner() {
             absolutely real.
           </p>
           <div className="mt-6 flex flex-col sm:flex-row gap-3">
-            <Button href="/about-book" variant="primary" size="md">
-              About the Book
+            <Button href="/books" variant="primary" size="md">
+              Our Books
             </Button>
             <Button href="/contact" variant="outline" size="md">
               Contact
