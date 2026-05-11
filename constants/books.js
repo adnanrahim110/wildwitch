@@ -1,8 +1,8 @@
 export const books = [
   {
     id: "1",
-    slug: "wild-witch",
-    title: "Wild Witch",
+    slug: "the-mystical-path",
+    title: "The Mystical Path",
     subtitle: "When The Forest Whispers Your Name, Do You Answer?",
     description:
       "Two girls, one country girl with a gift for animals, one cheerleader captain who feared large animals, follow a hidden trail into a realm of pixies, sprites, fairies and a unicorn who chooses his riders. Wishes grow on trees here, but every wish requires a true heart.",
@@ -63,12 +63,12 @@ export const books = [
   },
   {
     id: "2",
-    slug: "whispers-of-the-deep",
-    title: "Whispers of the Deep",
-    subtitle: "Can You Keep a Secret That Could Change the World?",
+    slug: "the-mystery-doorway-adventures",
+    title: "The Mystery Doorway Adventures",
+    subtitle: "When One Door Closes, Another Opens to a World of Wonders",
     description:
-      "A thrilling tale of underwater discovery where a young marine biologist uncovers an ancient civilization beneath the waves. She must protect her findings from corporate greed while uncovering the truth of her own lineage.",
-    amazonLink: "https://amazon.com/dp/placeholder2",
+      "Willow’s magical adventure continues as a mysterious doorway opens into a hidden realm filled with talking animals, fairies, sprites, unicorns, and secrets waiting to be discovered. In Wild Witch – Book 2: The Mystery Doorway Adventures, friendship, courage, and magic lead the way into a world where anything is possible.",
+    amazonLink: "https://www.amazon.com/Wild-Witch-Mystery-Doorway-Adventures-ebook/dp/B0GP58JB62?ref_=saga_ast_ss_dsk_dp",
     coverImage: "/images/books/b2-f.jpg",
     trailers: [
       { src: "/videos/b2-t.webm", type: "video/webm" },
@@ -125,12 +125,12 @@ export const books = [
   },
   {
     id: "3",
-    slug: "shadows-of-the-crown",
-    title: "Shadows of the Crown",
-    subtitle: "Who Can You Trust When Everyone Wears a Mask?",
+    slug: "the-enchanted-forest",
+    title: "The Enchanted Forest",
+    subtitle: "When The Ground Trembles, Magic Awakens",
     description:
-      "In a kingdom where magic is forbidden, a young thief finds herself in possession of a royal heirloom that marks her as the true heir. She must navigate a treacherous court full of deceit and assassins to claim her birthright.",
-    amazonLink: "https://amazon.com/dp/placeholder3",
+      "A hidden forest. Ancient magic. A Wild Witch with powers she’s only beginning to understand. As strange tremors shake Magic Land, Willow and her friends journey deep into the Enchanted Forest, where magical creatures, secret realms, and dangerous mysteries await around every corner.",
+    amazonLink: "https://www.amazon.com/Wild-Witch-Enchanted-Forest-Fantasy-ebook/dp/B0DC74GNMG?ref_=saga_ast_ss_dsk_dp",
     coverImage: "/images/books/b3-f.jpg",
     trailers: [
       { src: "/videos/b3-t.webm", type: "video/webm" },

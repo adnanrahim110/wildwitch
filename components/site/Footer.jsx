@@ -1,24 +1,19 @@
 // /components/site/Footer.jsx
 "use client";
 
-import {
-  ArrowUpRight,
-  BookText,
-  Facebook,
-  Instagram,
-  Twitter,
-} from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { FaFacebookF, FaInstagram, FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
   const year = new Date().getFullYear();
   const ISBN = "ISBN: 978-1-23456-789-0";
   return (
     <footer className="relative mt-16">
-      <div className="absolute right-[-12%] top-[-10%] h-[28rem] w-[30rem] rounded-full bg-[#ff4444]/12 blur-3xl" />
+      <div className="absolute right-[-12%] top-[-10%] h-112 w-120 rounded-full bg-[#ff4444]/12 blur-3xl" />
       <div className="container-max relative">
-        <div className="p-[1px] rounded-3xl bg-gradient-to-br from-white/30 via-white/10 to-transparent">
+        <div className="p-px rounded-3xl bg-linear-to-br from-white/30 via-white/10 to-transparent">
           <div className="rounded-3xl bg-black/65 backdrop-blur-xl border border-white/10">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 p-8 md:p-12">
               <div className="lg:col-span-4 flex items-start gap-3">
@@ -90,9 +85,9 @@ export default function Footer() {
                       <Link
                         href="https://facebook.com"
                         aria-label="Facebook"
-                        className="group inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/[0.05] hover:bg-white/[0.1] transition"
+                        className="group inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 hover:bg-white/10 transition"
                       >
-                        <Facebook
+                        <FaFacebookF
                           size={18}
                           className="text-white/85 group-hover:text-white"
                         />
@@ -100,9 +95,9 @@ export default function Footer() {
                       <Link
                         href="https://instagram.com"
                         aria-label="Instagram"
-                        className="group inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/[0.05] hover:bg-white/[0.1] transition"
+                        className="group inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 hover:bg-white/10 transition"
                       >
-                        <Instagram
+                        <FaInstagram
                           size={18}
                           className="text-white/85 group-hover:text-white"
                         />
@@ -110,9 +105,9 @@ export default function Footer() {
                       <Link
                         href="https://twitter.com"
                         aria-label="Twitter"
-                        className="group inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/[0.05] hover:bg-white/[0.1] transition"
+                        className="group inline-flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 hover:bg-white/10 transition"
                       >
-                        <Twitter
+                        <FaXTwitter
                           size={18}
                           className="text-white/85 group-hover:text-white"
                         />
@@ -126,7 +121,7 @@ export default function Footer() {
                 <div className="text-xs uppercase tracking-wide text-white/60">
                   Special Thanks
                 </div>
-                <div className="mt-3 rounded-2xl border border-white/10 bg-white/[0.05] py-3 px-2 relative">
+                <div className="mt-3 rounded-2xl border border-white/10 bg-white/5 py-3 px-2 relative">
                   <div className="flex flex-col items-start gap-3">
                     <div className="flex items-end gap-1">
                       <div className="w-40">
@@ -157,7 +152,7 @@ export default function Footer() {
             </div>
 
             <div className="px-8 md:px-12 pb-8">
-              <div className="h-px w-full bg-gradient-to-r from-transparent via-white/15 to-transparent" />
+              <div className="h-px w-full bg-linear-to-r from-transparent via-white/15 to-transparent" />
               <div className="mt-5 flex flex-col-reverse md:flex-row items-center justify-center text-center gap-3">
                 <p className="text-xs text-white/60">
                   © {year} Michael J. Dooley. All rights reserved.
