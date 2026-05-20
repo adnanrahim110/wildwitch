@@ -53,7 +53,6 @@ export default function Definition() {
                 src="/images/hero-sec.jpg"
                 alt="Wild Witch world artwork"
                 fill
-                priority
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 className="object-cover will-change-transform"
               />

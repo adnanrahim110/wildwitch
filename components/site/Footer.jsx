@@ -21,6 +21,8 @@ export default function Footer() {
                   <div className="size-14 rounded-full bg-white/10 border border-white/15 group-hover:bg-white/15 transition">
                     <img
                       src="/images/main-char.jpg"
+                      loading="lazy"
+                      decoding="async"
                       className="size-full object-cover rounded-full"
                       alt=""
                     />
@@ -129,6 +131,8 @@ export default function Footer() {
                           src="/images/evp-logo.png"
                           width={600}
                           height={600}
+                          loading="lazy"
+                          decoding="async"
                           className="w-full h-auto"
                           alt="EBook Visionary Publishing"
                         />

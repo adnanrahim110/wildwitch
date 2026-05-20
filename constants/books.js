@@ -92,9 +92,9 @@ export const books = [
         },
       ],
       metadata: {
-        ageRange: "14+",
-        genre: "Sci-Fi",
-        theme: "Discovery",
+        ageRange: "13+",
+        genre: "Fantasy",
+        theme: "Magic",
       },
     },
     inside: {
@@ -154,9 +154,9 @@ export const books = [
         },
       ],
       metadata: {
-        ageRange: "16+",
-        genre: "High Fantasy",
-        theme: "Rebellion",
+        ageRange: "13+",
+        genre: "Fantasy",
+        theme: "Magic",
       },
     },
     inside: {

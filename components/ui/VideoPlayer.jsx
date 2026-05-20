@@ -37,7 +37,7 @@ export default function VideoPlayer({ trailers }) {
             ref={videoRef}
             className="size-full object-cover bg-black"
             playsInline
-            preload="metadata"
+            preload="none"
           >
             {trailers.map((trailer, idx) => (
               <source key={idx} src={trailer.src} type={trailer.type} />

@@ -1,10 +1,29 @@
-import Sample from "@/components/book/Sample";
-import AuthorTeaser from "@/components/home/AuthorTeaser";
-import BookTeaser from "@/components/home/BookTeaser";
-import BookTrailer from "@/components/home/BookTrailer";
-import CTA from "@/components/home/CTA";
-import Definition from "@/components/home/Definition";
 import Hero from "@/components/home/Hero";
+import dynamic from "next/dynamic";
+
+const Definition = dynamic(() => import("@/components/home/Definition"), {
+  loading: () => null,
+});
+
+const AuthorTeaser = dynamic(() => import("@/components/home/AuthorTeaser"), {
+  loading: () => null,
+});
+
+const BookTrailer = dynamic(() => import("@/components/home/BookTrailer"), {
+  loading: () => null,
+});
+
+const Sample = dynamic(() => import("@/components/book/Sample"), {
+  loading: () => null,
+});
+
+const BookTeaser = dynamic(() => import("@/components/home/BookTeaser"), {
+  loading: () => null,
+});
+
+const CTA = dynamic(() => import("@/components/home/CTA"), {
+  loading: () => null,
+});
 
 export default function HomePage() {
   return (
